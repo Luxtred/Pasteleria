@@ -1,0 +1,61 @@
+CRITICAL - 2024-09-24 01:19:00 --> ErrorException: Undefined array key "imagen"
+[Method: POST, Route: producto/insert]
+in APPPATH\Controllers\Producto.php on line 34.
+ 1 APPPATH\Controllers\Producto.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Producto.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-24 15:28:35 --> ErrorException: Undefined array key "imagen"
+[Method: POST, Route: producto/insert]
+in APPPATH\Controllers\Producto.php on line 34.
+ 1 APPPATH\Controllers\Producto.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Producto.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-24 15:51:10 --> ErrorException: Undefined array key "direccion"
+[Method: POST, Route: local/insert]
+in APPPATH\Controllers\Local.php on line 56.
+ 1 APPPATH\Controllers\Local.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "direccion"', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Local.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-24 15:52:00 --> ErrorException: Undefined array key "direccion"
+[Method: POST, Route: local/insert]
+in APPPATH\Controllers\Local.php on line 56.
+ 1 APPPATH\Controllers\Local.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "direccion"', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Local.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-24 16:05:23 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: local]
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-24 18:23:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "upload_form.php"
+[Method: GET, Route: upload]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('upload_form.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('upload_form', [], true)
+ 3 APPPATH\Controllers\Upload.php(13): view('upload_form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')

@@ -1,0 +1,810 @@
+CRITICAL - 2024-09-23 19:14:28 --> ErrorException: Undefined property: stdClass::$administrador
+[Method: GET, Route: administrador/edit/6]
+in APPPATH\Views\administrador\edit.php on line 9.
+ 1 APPPATH\Views\administrador\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$administrador', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/edit', [], true)
+ 5 APPPATH\Controllers\Administrador.php(34): view('administrador/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:15:13 --> ErrorException: Undefined property: stdClass::$administrador
+[Method: GET, Route: administrador/edit/6]
+in APPPATH\Views\administrador\edit.php on line 9.
+ 1 APPPATH\Views\administrador\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$administrador', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/edit', [], true)
+ 5 APPPATH\Controllers\Administrador.php(34): view('administrador/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:15:19 --> ErrorException: Undefined property: stdClass::$administrador
+[Method: GET, Route: administrador/edit/6]
+in APPPATH\Views\administrador\edit.php on line 9.
+ 1 APPPATH\Views\administrador\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$administrador', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/edit', [], true)
+ 5 APPPATH\Controllers\Administrador.php(34): view('administrador/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:18:40 --> ErrorException: Undefined variable $administradorA
+[Method: GET, Route: administrador/edit/6]
+in APPPATH\Views\administrador\edit.php on line 4.
+ 1 APPPATH\Views\administrador\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $administradorA', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/edit', [], true)
+ 5 APPPATH\Controllers\Administrador.php(34): view('administrador/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:22:20 --> ErrorException: Undefined variable $administradorA
+[Method: GET, Route: administrador/edit/6]
+in APPPATH\Views\administrador\edit.php on line 9.
+ 1 APPPATH\Views\administrador\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $administradorA', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/edit', [], true)
+ 5 APPPATH\Controllers\Administrador.php(34): view('administrador/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:30:30 --> ErrorException: Undefined variable $administradorA
+[Method: GET, Route: administrador/edit/6]
+in APPPATH\Views\administrador\edit.php on line 15.
+ 1 APPPATH\Views\administrador\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $administradorA', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/edit', [], true)
+ 5 APPPATH\Controllers\Administrador.php(34): view('administrador/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:34:48 --> ErrorException: Undefined variable $administradorA
+[Method: GET, Route: administrador/edit/6]
+in APPPATH\Views\administrador\edit.php on line 15.
+ 1 APPPATH\Views\administrador\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $administradorA', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/edit', [], true)
+ 5 APPPATH\Controllers\Administrador.php(34): view('administrador/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:35:41 --> ErrorException: Undefined variable $administradorA
+[Method: GET, Route: administrador/edit/6]
+in APPPATH\Views\administrador\edit.php on line 15.
+ 1 APPPATH\Views\administrador\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $administradorA', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/edit', [], true)
+ 5 APPPATH\Controllers\Administrador.php(34): view('administrador/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:40:18 --> ErrorException: Undefined array key "administrador"
+[Method: POST, Route: administrador/update/]
+in APPPATH\Controllers\Administrador.php on line 42.
+ 1 APPPATH\Controllers\Administrador.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "administrador"', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Administrador.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+ERROR - 2024-09-23 19:42:04 --> mysqli_sql_exception: Unknown column 'idAdmistrador' in 'where clause' in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `adminis...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `adminis...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `adminis...')
+#3 C:\xampp\htdocs\pastel\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `adminis...', Array, false)
+#4 C:\xampp\htdocs\pastel\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pastel\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\pastel\system\Model.php(865): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\pastel\app\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+#9 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#10 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-09-23 19:42:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idAdmistrador' in 'where clause'
+[Method: POST, Route: administrador/update/]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `administrador` SET `nombre` = :nombre:, `apellidoPaterno` = :apellidoPaterno:, `apellidoMaterno` = :apellidoMaterno:, `fechaNacimiento` = :fechaNacimiento:, `curp` = :curp:, `telefono` = :telefono:, `email` = :email:
+WHERE `idAdmistrador` = :idAdmistrador:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:42:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idAdmistrador' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `idAdmistrador` = \'6\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `idAdmistrador` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `administrador` SET `nombre` = :nombre:, `apellidoPaterno` = :apellidoPaterno:, `apellidoMaterno` = :apellidoMaterno:, `fechaNacimiento` = :fechaNacimiento:, `curp` = :curp:, `telefono` = :telefono:, `email` = :email:
+WHERE `idAdmistrador` = :idAdmistrador:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:42:04 --> [Caused by] mysqli_sql_exception: Unknown column 'idAdmistrador' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `idAdmistrador` = \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `idAdmistrador` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `idAdmistrador` = \'6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `administrador` SET `nombre` = :nombre:, `apellidoPaterno` = :apellidoPaterno:, `apellidoMaterno` = :apellidoMaterno:, `fechaNacimiento` = :fechaNacimiento:, `curp` = :curp:, `telefono` = :telefono:, `email` = :email:
+WHERE `idAdmistrador` = :idAdmistrador:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+ERROR - 2024-09-23 19:43:26 --> mysqli_sql_exception: Unknown column 'admistrador' in 'where clause' in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `adminis...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `adminis...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `adminis...')
+#3 C:\xampp\htdocs\pastel\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `adminis...', Array, false)
+#4 C:\xampp\htdocs\pastel\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pastel\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\pastel\system\Model.php(865): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\pastel\app\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+#9 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#10 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-09-23 19:43:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'admistrador' in 'where clause'
+[Method: POST, Route: administrador/update/]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `administrador` SET `nombre` = :nombre:, `apellidoPaterno` = :apellidoPaterno:, `apellidoMaterno` = :apellidoMaterno:, `fechaNacimiento` = :fechaNacimiento:, `curp` = :curp:, `telefono` = :telefono:, `email` = :email:
+WHERE `admistrador` = :admistrador:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:43:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'admistrador' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `admistrador` = \'6\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `admistrador` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `administrador` SET `nombre` = :nombre:, `apellidoPaterno` = :apellidoPaterno:, `apellidoMaterno` = :apellidoMaterno:, `fechaNacimiento` = :fechaNacimiento:, `curp` = :curp:, `telefono` = :telefono:, `email` = :email:
+WHERE `admistrador` = :admistrador:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:43:26 --> [Caused by] mysqli_sql_exception: Unknown column 'admistrador' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `admistrador` = \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `admistrador` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `admistrador` = \'6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `administrador` SET `nombre` = :nombre:, `apellidoPaterno` = :apellidoPaterno:, `apellidoMaterno` = :apellidoMaterno:, `fechaNacimiento` = :fechaNacimiento:, `curp` = :curp:, `telefono` = :telefono:, `email` = :email:
+WHERE `admistrador` = :admistrador:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+ERROR - 2024-09-23 19:43:56 --> mysqli_sql_exception: Unknown column 'administrador' in 'where clause' in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `adminis...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `adminis...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `adminis...')
+#3 C:\xampp\htdocs\pastel\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `adminis...', Array, false)
+#4 C:\xampp\htdocs\pastel\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pastel\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\pastel\system\Model.php(865): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\pastel\app\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+#9 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#10 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-09-23 19:43:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'administrador' in 'where clause'
+[Method: POST, Route: administrador/update/]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `administrador` SET `nombre` = :nombre:, `apellidoPaterno` = :apellidoPaterno:, `apellidoMaterno` = :apellidoMaterno:, `fechaNacimiento` = :fechaNacimiento:, `curp` = :curp:, `telefono` = :telefono:, `email` = :email:
+WHERE `administrador` = :administrador:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:43:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'administrador' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `administrador` = \'6\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `administrador` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `administrador` SET `nombre` = :nombre:, `apellidoPaterno` = :apellidoPaterno:, `apellidoMaterno` = :apellidoMaterno:, `fechaNacimiento` = :fechaNacimiento:, `curp` = :curp:, `telefono` = :telefono:, `email` = :email:
+WHERE `administrador` = :administrador:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:43:56 --> [Caused by] mysqli_sql_exception: Unknown column 'administrador' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `administrador` = \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `administrador` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `administrador` SET `nombre` = \'Elvis Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOE030507MOCRSLA3\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `administrador` = \'6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `administrador` SET `nombre` = :nombre:, `apellidoPaterno` = :apellidoPaterno:, `apellidoMaterno` = :apellidoMaterno:, `fechaNacimiento` = :fechaNacimiento:, `curp` = :curp:, `telefono` = :telefono:, `email` = :email:
+WHERE `administrador` = :administrador:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+ERROR - 2024-09-23 19:49:34 --> mysqli_sql_exception: Unknown column 'administrador' in 'where clause' in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `adminis...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `adminis...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `adminis...')
+#3 C:\xampp\htdocs\pastel\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `adminis...', Array, false)
+#4 C:\xampp\htdocs\pastel\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pastel\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\pastel\system\Model.php(865): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\pastel\app\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+#9 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#10 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-09-23 19:49:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'administrador' in 'where clause'
+[Method: POST, Route: administrador/update/]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `administrador` SET `nombre` = :nombre:, `apellidoPaterno` = :apellidoPaterno:, `apellidoMaterno` = :apellidoMaterno:, `fechaNacimiento` = :fechaNacimiento:, `curp` = :curp:, `telefono` = :telefono:, `email` = :email:
+WHERE `administrador` = :administrador:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:49:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'administrador' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `administrador` SET `nombre` = \'Elviz Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOY080508HOCRSNA8\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `administrador` = \'6\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `administrador` SET `nombre` = \'Elviz Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOY080508HOCRSNA8\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `administrador` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `administrador` SET `nombre` = :nombre:, `apellidoPaterno` = :apellidoPaterno:, `apellidoMaterno` = :apellidoMaterno:, `fechaNacimiento` = :fechaNacimiento:, `curp` = :curp:, `telefono` = :telefono:, `email` = :email:
+WHERE `administrador` = :administrador:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 19:49:34 --> [Caused by] mysqli_sql_exception: Unknown column 'administrador' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `administrador` SET `nombre` = \'Elviz Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOY080508HOCRSNA8\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `administrador` = \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `administrador` SET `nombre` = \'Elviz Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOY080508HOCRSNA8\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `administrador` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `administrador` SET `nombre` = \'Elviz Claudette\', `apellidoPaterno` = \'Garrido\', `apellidoMaterno` = \' Osorio\', `fechaNacimiento` = \'2000-10-13\', `curp` = \'GAOY080508HOCRSNA8\', `telefono` = \'2261013430\', `email` = \'L22TE0022@teziutlan.tecnm.mx\'
+WHERE `administrador` = \'6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `administrador` SET `nombre` = :nombre:, `apellidoPaterno` = :apellidoPaterno:, `apellidoMaterno` = :apellidoMaterno:, `fechaNacimiento` = :fechaNacimiento:, `curp` = :curp:, `telefono` = :telefono:, `email` = :email:
+WHERE `administrador` = :administrador:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Administrador.php(50): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->update('')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:20:52 --> ErrorException: Undefined array key 0
+[Method: GET, Route: administrador/edit/1]
+in APPPATH\Views\administrador\edit.php on line 9.
+ 1 APPPATH\Views\administrador\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/edit', [], true)
+ 5 APPPATH\Controllers\Administrador.php(34): view('administrador/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:21:26 --> ErrorException: Undefined array key 0
+[Method: GET, Route: administrador/edit/1]
+in APPPATH\Views\administrador\edit.php on line 9.
+ 1 APPPATH\Views\administrador\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/edit', [], true)
+ 5 APPPATH\Controllers\Administrador.php(34): view('administrador/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:23:29 --> ErrorException: Undefined array key 0
+[Method: GET, Route: administrador/edit/1]
+in APPPATH\Views\administrador\edit.php on line 9.
+ 1 APPPATH\Views\administrador\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/edit', [], true)
+ 5 APPPATH\Controllers\Administrador.php(34): view('administrador/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:24:23 --> ErrorException: Undefined array key 0
+[Method: GET, Route: administrador/edit/1]
+in APPPATH\Views\administrador\edit.php on line 9.
+ 1 APPPATH\Views\administrador\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\administrador\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/edit', [], true)
+ 5 APPPATH\Controllers\Administrador.php(34): view('administrador/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+ERROR - 2024-09-23 20:28:47 --> mysqli_sql_exception: Unknown column '$idPersonal' in 'where clause' in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pastel\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pastel\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pastel\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pastel\app\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+#8 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+#9 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-23 20:28:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$idPersonal' in 'where clause'
+[Method: GET, Route: personal/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = :$idPersonal:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:28:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$idPersonal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = :$idPersonal:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:28:47 --> [Caused by] mysqli_sql_exception: Unknown column '$idPersonal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = :$idPersonal:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+ERROR - 2024-09-23 20:31:46 --> mysqli_sql_exception: Unknown column '$idPersonal' in 'where clause' in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pastel\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pastel\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pastel\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pastel\app\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+#8 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+#9 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-23 20:31:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$idPersonal' in 'where clause'
+[Method: GET, Route: personal/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = :$idPersonal:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:31:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$idPersonal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = :$idPersonal:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:31:46 --> [Caused by] mysqli_sql_exception: Unknown column '$idPersonal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = :$idPersonal:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+ERROR - 2024-09-23 20:31:51 --> mysqli_sql_exception: Unknown column '$idPersonal' in 'where clause' in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pastel\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pastel\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pastel\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pastel\app\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+#8 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+#9 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-23 20:31:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$idPersonal' in 'where clause'
+[Method: GET, Route: personal/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = :$idPersonal:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:31:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$idPersonal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = :$idPersonal:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:31:51 --> [Caused by] mysqli_sql_exception: Unknown column '$idPersonal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = :$idPersonal:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+ERROR - 2024-09-23 20:32:01 --> mysqli_sql_exception: Unknown column '$idPersonal' in 'where clause' in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pastel\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pastel\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pastel\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pastel\app\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+#8 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+#9 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-23 20:32:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$idPersonal' in 'where clause'
+[Method: GET, Route: personal/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = :$idPersonal:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:32:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$idPersonal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = :$idPersonal:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:32:01 --> [Caused by] mysqli_sql_exception: Unknown column '$idPersonal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `personal`
+WHERE `$idPersonal` = :$idPersonal:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Personal.php(30): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-23 20:35:56 --> ErrorException: Undefined array key "$idPersonal"
+[Method: POST, Route: personal/update/]
+in APPPATH\Controllers\Personal.php on line 40.
+ 1 APPPATH\Controllers\Personal.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$idPersonal"', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Personal.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
