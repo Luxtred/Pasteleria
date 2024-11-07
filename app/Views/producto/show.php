@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col">
         <h1 class="text-success"> Pasteles </h1>
-         <a href="<?=base_url('producto/add/');?> " class="btn btn-outline-info">Agregar</a>
+        <a href="<?=base_url('producto/add/');?> " class="btn btn-outline-info">Agregar</a>
     </div>
 </div>
     <div class="row">

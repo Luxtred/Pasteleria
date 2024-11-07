@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Cliente extends BaseController
 {
     public function index(): string
     {
-        return view('/topMenu');
+        return view('/cliente');
     }
 }

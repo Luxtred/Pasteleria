@@ -1,0 +1,182 @@
+
+
+        /* Estilo para la barra superior */
+        .BarraMasArriba {
+            display: flex;
+            justify-content: flex-end;
+            background-color: #e6b3ff; /* Color de fondo morado claro */
+            padding: 5px 15px;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .BarraMasArriba .SeleccionaSucursal,
+        .BarraMasArriba .Recoger {
+            margin-left: 20px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        /* Estilo para la barra de navegación */
+        .BarraDeArriba {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #d48cff; /* Color de fondo morado */
+            padding: 15px 25px;
+            font-family: Arial, sans-serif;
+        }
+
+        .PasteleriaZzz{
+          width: 231px;
+          height: 42px;
+          position: fixed;
+          top: 31px;
+          left: 25px;
+          text-align: center;
+          color: white;
+          font-size: 34px;
+          font-family: Arial, sans-serif;
+          font-weight: 400 ;
+          word-wrap: break-word;
+        }
+        
+        .BarraDeArriba .Sucursales, 
+        .BarraDeArriba .Promociones,
+        .BarraDeArriba .LoNuevo,
+        .BarraDeArriba .OrdenaAqui {
+          position: fixed;
+          color: black;
+          font-size: 20px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+          font-weight: 225;
+          
+        }
+        .Sucursales {
+          top: 30px;
+          left: 400px;
+        }
+        
+        .Promociones {
+          top: 30px;
+          left: 650px;
+        }
+        
+        .LoNuevo {
+          top: 30px;
+          left: 950px;
+        }
+        
+        .OrdenaAqui {
+          top: 30px;
+          left: 1250px;
+        }
+
+        .BarraDeArriba .navbar-nav .nav-link:hover {
+            color: #cccccc; /* Color de texto al pasar el mouse */
+        }
+        .menu-item h2 {
+          color: #333;
+          font-size: 24px;
+          margin-bottom: 10px;
+      }
+      
+      .menu-item p {
+          font-size: 16px;
+          color: #666;
+          margin-bottom: 15px;
+      }
+      
+      /* Botón "Ver más" */
+      .menu-item button {
+          background-color: #666;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          
+          
+      border-radius: 4px;
+          cursor: pointer;
+          
+         
+      transition: background-color 0.3s;
+      }
+      
+      .menu-item button:hover {
+          background-color: #555;
+      }
+
+        /* Estilos para los productos */
+        .products {
+         display: flex;
+         justify-content: space-around;
+         gap: 10px;
+        }
+
+        .product {
+        width: 30%;
+        background-color: #dcdcdc;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+        }
+
+        .product img {
+        width: 100%;
+        border-radius: 8px;
+        }
+
+        .product p {
+         color: #333;
+        font-size: 14px;
+         margin: 5px 0;
+        }
+
+        .product button {
+         background-color: #666;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+          }
+          /* Contenedor de los iconos */
+.icon-container {
+  display: flex;
+  gap: 15px;
+}
+
+/* Estilos generales para los iconos */
+.icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo para el icono de carrito */
+.cart-icon {
+  color: #A020F0;
+}
+
+/* Badge del carrito */
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #E0E0E0;
+  color: black;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+      
+      
+

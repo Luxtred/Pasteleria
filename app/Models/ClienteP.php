@@ -4,16 +4,16 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ProductoP extends Model
+class ClienteP extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'producto';
-    protected $primaryKey       = 'idProducto';
+    protected $table            = 'cliente_ps';
+    protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
-    protected $returnType       = 'object';
+    protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
-    protected $protectFields    = false;
-    protected $allowedFields    = ['idProducto','nombre','peso','descripción','precio','imagen','idDisponible','cantidad','idLocal','temporada','idCategoria'];
+    protected $protectFields    = true;
+    protected $allowedFields    = [];
 
     // Dates
     protected $useTimestamps = false;
@@ -38,18 +38,4 @@ class ProductoP extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
-
-    public function getProducto(){
-        $db = db_connect();
-
-        $sql= "select producto.*, Disponibilidad.disponible
-                from producto,Disponibilidad 
-                where producto.idDisponible = disponibilidad.idDisponible 
-        ";
-        $query= $db->query($sql);
-
-       
-        return $query->getResult();
-
-    }
 }

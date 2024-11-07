@@ -6,13 +6,16 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
-$routes->get('/menu', 'Home::index');
+
+
 
 $routes->get('/administrador', 'Administrador::index');
 $routes->get('/producto', 'Producto::index');
 $routes->get('/personal', 'Personal::index');
 $routes->get('/local', 'Local::index');
 $routes->get('/usuario','Usuario::index');
+$routes->get('/cliente','Cliente::index');
+
 
 $routes->get('/administrador/add','Administrador::add');
 $routes->get('/producto/add','Producto::add');
@@ -42,6 +45,13 @@ $routes->get('/local/delete/(:num)','Local::delete/$1');
 $routes->get('/usuario/salir','Usuario::salir');
 
 $routes->post('/usuario/acceder','Usuario::acceder');
+
+
+//Rutas del cliente
+
+$routes->get('/topMenu', 'Home::index');
+$routes->get('/principal', 'Home::index');
+$routes->get('/producto/showC', 'Producto::showC');
 
 
 

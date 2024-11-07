@@ -125,5 +125,15 @@ class Producto extends BaseController
         $productoP->delete($idProducto);
         return redirect()->to(base_url('/producto'));
     }
+    public function ShowC(){
+        $productoP = model('ProductoP');
+
+        $data['producto'] = $productoP->getProducto();
+        return 
+            view('head').
+            view('topMenu').
+            view('producto/showc', $data).
+            view('footer');  
+    } 
+    }
     
-}
