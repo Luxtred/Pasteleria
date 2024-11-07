@@ -1,0 +1,667 @@
+CRITICAL - 2024-09-26 15:24:17 --> ErrorException: Undefined variable $disponible
+[Method: GET, Route: producto/add/]
+in APPPATH\Views\producto\add.php on line 33.
+ 1 APPPATH\Views\producto\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disponible', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('producto/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 15:56:13 --> ErrorException: Undefined variable $disponible
+[Method: GET, Route: producto/add/]
+in APPPATH\Views\producto\add.php on line 33.
+ 1 APPPATH\Views\producto\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disponible', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('producto/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 15:59:41 --> ErrorException: Undefined variable $disponibles
+[Method: GET, Route: producto/add/]
+in APPPATH\Views\producto\add.php on line 33.
+ 1 APPPATH\Views\producto\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disponibles', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('producto/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:04:21 --> ErrorException: Undefined property: stdClass::$disponibles
+[Method: GET, Route: producto]
+in APPPATH\Views\producto\show.php on line 30.
+ 1 APPPATH\Views\producto\show.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$disponibles', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\show.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/show', [], true)
+ 5 APPPATH\Controllers\Producto.php(15): view('producto/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:05:10 --> ErrorException: Undefined variable $disponibles
+[Method: GET, Route: producto/add/]
+in APPPATH\Views\producto\add.php on line 33.
+ 1 APPPATH\Views\producto\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disponibles', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('producto/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+ERROR - 2024-09-26 16:13:39 --> mysqli_sql_exception: Table 'pasteleria.disponible' doesn't exist in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('select producto...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select producto...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select producto...')
+#3 C:\xampp\htdocs\pastel\app\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('select producto...')
+#4 C:\xampp\htdocs\pastel\app\Controllers\Producto.php(11): App\Models\ProductoP->getProducto()
+#5 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Producto->index()
+#6 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-09-26 16:13:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.disponible' doesn't exist
+[Method: GET, Route: producto]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 2 APPPATH\Controllers\Producto.php(11): App\Models\ProductoP->getProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:13:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.disponible' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 3 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 4 APPPATH\Controllers\Producto.php(11): App\Models\ProductoP->getProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:13:39 --> [Caused by] mysqli_sql_exception: Table 'pasteleria.disponible' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 4 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 5 APPPATH\Controllers\Producto.php(11): App\Models\ProductoP->getProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+ERROR - 2024-09-26 16:13:48 --> mysqli_sql_exception: Table 'pasteleria.disponible' doesn't exist in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('select producto...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select producto...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select producto...')
+#3 C:\xampp\htdocs\pastel\app\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('select producto...')
+#4 C:\xampp\htdocs\pastel\app\Controllers\Producto.php(11): App\Models\ProductoP->getProducto()
+#5 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Producto->index()
+#6 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-09-26 16:13:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.disponible' doesn't exist
+[Method: GET, Route: producto]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 2 APPPATH\Controllers\Producto.php(11): App\Models\ProductoP->getProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:13:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.disponible' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 3 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 4 APPPATH\Controllers\Producto.php(11): App\Models\ProductoP->getProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:13:48 --> [Caused by] mysqli_sql_exception: Table 'pasteleria.disponible' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 4 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('select producto.*, Disponible.disponible
+                from producto,Disponible 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 5 APPPATH\Controllers\Producto.php(11): App\Models\ProductoP->getProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+ERROR - 2024-09-26 16:15:33 --> mysqli_sql_exception: Unknown column 'disponible.idDisponible' in 'where clause' in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('select producto...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select producto...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select producto...')
+#3 C:\xampp\htdocs\pastel\app\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('select producto...')
+#4 C:\xampp\htdocs\pastel\app\Controllers\Producto.php(11): App\Models\ProductoP->getProducto()
+#5 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Producto->index()
+#6 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-09-26 16:15:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'disponible.idDisponible' in 'where clause'
+[Method: GET, Route: producto]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('select producto.*, Disponibilidad.disponible
+                from producto,Disponibilidad 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 2 APPPATH\Controllers\Producto.php(11): App\Models\ProductoP->getProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:15:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'disponible.idDisponible' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select producto.*, Disponibilidad.disponible
+                from producto,Disponibilidad 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select producto.*, Disponibilidad.disponible
+                from producto,Disponibilidad 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 3 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('select producto.*, Disponibilidad.disponible
+                from producto,Disponibilidad 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 4 APPPATH\Controllers\Producto.php(11): App\Models\ProductoP->getProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:15:33 --> [Caused by] mysqli_sql_exception: Unknown column 'disponible.idDisponible' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select producto.*, Disponibilidad.disponible
+                from producto,Disponibilidad 
+                where producto.idDisponible = disponible.idDisponible 
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select producto.*, Disponibilidad.disponible
+                from producto,Disponibilidad 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select producto.*, Disponibilidad.disponible
+                from producto,Disponibilidad 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 4 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('select producto.*, Disponibilidad.disponible
+                from producto,Disponibilidad 
+                where producto.idDisponible = disponible.idDisponible 
+        ')
+ 5 APPPATH\Controllers\Producto.php(11): App\Models\ProductoP->getProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:21:28 --> ErrorException: Undefined variable $disponibilidad
+[Method: GET, Route: producto/add/]
+in APPPATH\Views\producto\add.php on line 33.
+ 1 APPPATH\Views\producto\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disponibilidad', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('producto/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:22:40 --> ErrorException: Undefined variable $disponibilidad
+[Method: GET, Route: producto/add/]
+in APPPATH\Views\producto\add.php on line 33.
+ 1 APPPATH\Views\producto\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disponibilidad', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('producto/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:25:36 --> ErrorException: Undefined variable $disponibilidad
+[Method: GET, Route: producto/add/]
+in APPPATH\Views\producto\add.php on line 33.
+ 1 APPPATH\Views\producto\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disponibilidad', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('producto/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:27:46 --> ErrorException: Undefined variable $disponible
+[Method: GET, Route: producto/add/]
+in APPPATH\Views\producto\add.php on line 33.
+ 1 APPPATH\Views\producto\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disponible', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('producto/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:28:41 --> ErrorException: Undefined variable $Disponibilidad
+[Method: GET, Route: producto/add/]
+in APPPATH\Views\producto\add.php on line 33.
+ 1 APPPATH\Views\producto\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Disponibilidad', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('producto/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:32:29 --> ErrorException: Undefined variable $Disponibilidad
+[Method: GET, Route: producto/add/]
+in APPPATH\Views\producto\add.php on line 33.
+ 1 APPPATH\Views\producto\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Disponibilidad', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('producto/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:39:44 --> ErrorException: Undefined variable $disponible
+[Method: GET, Route: producto/add/]
+in APPPATH\Views\producto\add.php on line 34.
+ 1 APPPATH\Views\producto\add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disponible', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/add', [], true)
+ 5 APPPATH\Controllers\Producto.php(25): view('producto/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:41:13 --> ErrorException: Undefined array key "imagen"
+[Method: POST, Route: producto/insert]
+in APPPATH\Controllers\Producto.php on line 62.
+ 1 APPPATH\Controllers\Producto.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Producto.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+ERROR - 2024-09-26 16:41:45 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\pastel\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\pastel\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pastel\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pastel\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pastel\app\Controllers\Producto.php(66): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Producto->insert()
+#9 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#10 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-09-26 16:41:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: producto/insert]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`nombre`, `peso`, `descripción`, `precio`, `imagen`, `idDisponible`, `created_at`, `updated_at`) VALUES (:nombre:, :peso:, :descripción:, :precio:, :imagen:, :idDisponible:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Producto.php(66): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:41:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producto` (`nombre`, `peso`, `descripción`, `precio`, `imagen`, `idDisponible`, `created_at`, `updated_at`) VALUES (\'ROSALINA\', \'1.600 kg\', \'aa\', \'$679\', \'aa\', \'1\', \'2024-09-26 16:41:45\', \'2024-09-26 16:41:45\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producto` (`nombre`, `peso`, `descripción`, `precio`, `imagen`, `idDisponible`, `created_at`, `updated_at`) VALUES (\'ROSALINA\', \'1.600 kg\', \'aa\', \'$679\', \'aa\', \'1\', \'2024-09-26 16:41:45\', \'2024-09-26 16:41:45\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`nombre`, `peso`, `descripción`, `precio`, `imagen`, `idDisponible`, `created_at`, `updated_at`) VALUES (:nombre:, :peso:, :descripción:, :precio:, :imagen:, :idDisponible:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Producto.php(66): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:41:45 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `producto` (`nombre`, `peso`, `descripción`, `precio`, `imagen`, `idDisponible`, `created_at`, `updated_at`) VALUES (\'ROSALINA\', \'1.600 kg\', \'aa\', \'$679\', \'aa\', \'1\', \'2024-09-26 16:41:45\', \'2024-09-26 16:41:45\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producto` (`nombre`, `peso`, `descripción`, `precio`, `imagen`, `idDisponible`, `created_at`, `updated_at`) VALUES (\'ROSALINA\', \'1.600 kg\', \'aa\', \'$679\', \'aa\', \'1\', \'2024-09-26 16:41:45\', \'2024-09-26 16:41:45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producto` (`nombre`, `peso`, `descripción`, `precio`, `imagen`, `idDisponible`, `created_at`, `updated_at`) VALUES (\'ROSALINA\', \'1.600 kg\', \'aa\', \'$679\', \'aa\', \'1\', \'2024-09-26 16:41:45\', \'2024-09-26 16:41:45\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`nombre`, `peso`, `descripción`, `precio`, `imagen`, `idDisponible`, `created_at`, `updated_at`) VALUES (:nombre:, :peso:, :descripción:, :precio:, :imagen:, :idDisponible:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Producto.php(66): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->insert()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:50:10 --> ErrorException: Undefined variable $disponibles
+[Method: GET, Route: producto/edit/16]
+in APPPATH\Views\producto\edit.php on line 40.
+ 1 APPPATH\Views\producto\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disponibles', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/edit', [], true)
+ 5 APPPATH\Controllers\Producto.php(36): view('producto/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->edit('16')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-09-26 16:51:17 --> ErrorException: Undefined variable $disponibles
+[Method: GET, Route: producto/edit/16]
+in APPPATH\Views\producto\edit.php on line 40.
+ 1 APPPATH\Views\producto\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disponibles', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/edit', [], true)
+ 5 APPPATH\Controllers\Producto.php(36): view('producto/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->edit('16')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-09-26 17:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 19:20:04 --> TypeError: App\Controllers\Administrador::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: administrador]
+in APPPATH\Controllers\Administrador.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Administrador->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-09-26 19:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 19:28:08 --> TypeError: App\Controllers\Personal::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: personal]
+in APPPATH\Controllers\Personal.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Personal->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personal))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-09-26 19:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 19:29:19 --> TypeError: App\Controllers\Local::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: local]
+in APPPATH\Controllers\Local.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-09-26 19:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 20:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

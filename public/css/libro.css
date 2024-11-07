@@ -1,0 +1,255 @@
+.Principal {
+    width: 1920px;
+    height: 2582px;
+    position: relative;
+    background: white;
+  }
+  
+  .Oip1 {
+    width: 1920px;
+    height: 397px;
+    left: 0;
+    top: 99px;
+    position: absolute;
+  }
+  
+  .EspecialidadDelMes {
+    left: 747px;
+    top: 553px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    word-wrap: break-word;
+  }
+  
+  .Banner {
+    width: 1920px;
+    height: 70px;
+    left: 0;
+    top: -11px;
+    position: absolute;
+  }
+  
+  .Rectangle1 {
+    width: 1920px;
+    height: 70px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #DB9BDE;
+    border-radius: 9px;
+  }
+  
+  .SeleccionaSucursal,
+  .Recoger {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: 'Jersey 25';
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 0.96px;
+    word-wrap: break-word;
+  }
+  
+  .SeleccionaSucursal {
+    width: 229px;
+    height: 40px;
+    left: 1521px;
+    top: 19px;
+  }
+  
+  .Recoger {
+    width: 81px;
+    height: 31px;
+    left: 1812px;
+    top: 24px;
+  }
+  
+  .D3c96b734f221ddf1e19a389665f02eIconoDeTrazoDeUbicacionDeTienda1 {
+    width: 36px;
+    height: 36px;
+    left: 1776px;
+    top: 17.01px;
+    position: absolute;
+  }
+  
+  .BarraDeArriba {
+    width: 1920px;
+    height: 66px;
+    left: 0;
+    top: 44px;
+    position: absolute;
+  }
+  
+  .Rectangle2 {
+    width: 1920px;
+    height: 66px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #DE9BCA;
+    border-radius: 9px;
+  }
+  
+  .PasteleriaZzz,
+  .Sucursales,
+  .Promociones,
+  .LoNuevo,
+  .OrdenaAqui {
+    position: absolute;
+    text-align: center;
+    font-family: 'JejuGothic';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .PasteleriaZzz {
+    width: 231px;
+    height: 42px;
+    left: 8px;
+    top: 21px;
+    color: #FCFCFC;
+    font-size: 36px;
+  }
+  
+  .Sucursales {
+    left: 457px;
+    top: 29px;
+    color: black;
+    font-size: 24px;
+  }
+  
+  .Promociones {
+    left: 792px;
+    top: 29px;
+    color: black;
+    font-size: 24px;
+  }
+  
+  .LoNuevo {
+    left: 1130px;
+    top: 29px;
+    color: black;
+    font-size: 24px;
+  }
+  
+  .OrdenaAqui {
+    left: 1430px;
+    top: 29px;
+    color: black;
+    font-size: 24px;
+  }
+  
+  /* Imagenes y otros estilos en barra */
+  .R1,
+  .UserIcon1498511,
+  .ImageProcessing2021062086881jswwh51 {
+    position: absolute;
+  }
+  
+  .R1 {
+    width: 35px;
+    height: 35px;
+    left: 1728px;
+    top: 24px;
+  }
+  
+  .UserIcon1498511 {
+    width: 48px;
+    height: 47px;
+    left: 1788px;
+    top: 18px;
+  }
+  
+  .ImageProcessing2021062086881jswwh51 {
+    width: 50px;
+    height: 40px;
+    left: 1853px;
+    top: 21px;
+  }
+  
+  .Ellipse1 {
+    width: 15px;
+    height: 15px;
+    left: 1886px;
+    top: 24px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 50%;
+  }
+  
+  .Nombre {
+    width: 458px;
+    height: 145px;
+    left: 730px;
+    top: 181px;
+    position: absolute;
+  }
+  
+  .PanesDeAltaCalidad,
+  .ConoceNuestrosDeliciososPanes,
+  .VerMas {
+    position: absolute;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  
+  .PanesDeAltaCalidad {
+    left: 0;
+    top: 0;
+    color: white;
+    font-size: 36px;
+    font-family: 'Konkhmer Sleokchher';
+    font-weight: 400;
+  }
+  
+  .ConoceNuestrosDeliciososPanes {
+    left: 28px;
+    top: 65px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Kodchasan';
+    font-weight: 400;
+  }
+  
+  .Rectangle3 {
+    width: 150px;
+    height: 35px;
+    left: 154px;
+    top: 110px;
+    position: absolute;
+    background: #FF87DD;
+    border-radius: 49px;
+  }
+  
+  .VerMas {
+    width: 91px;
+    height: 20px;
+    left: 184px;
+    top: 117px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+  }
+  
+  .Pan1,
+  .Pan2,
+  .Pan3 {
+    width: 235px;
+    height: 312px;
+    position: absolute;
+  }
+  
+  .Pan1 {
+    left: 536px;
+    top: 645px;
+  }
+  
+  /* Otros estilos omitidos por brevedad. */
+  
