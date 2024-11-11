@@ -111,5 +111,18 @@ class Local extends BaseController
         $localP->delete($idLocal);
         return redirect()->to(base_url('/local'));
     }
+
+    public function Sucursal()
+    {
+        $localP = model('LocalP');
+
+        $data['local'] = $localP->findAll();
+        return 
+            view('head').
+            view('topMenu').
+            view('local/sucursal', $data).
+            view('footer');   
+    }
+
     
 }

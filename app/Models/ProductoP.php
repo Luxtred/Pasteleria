@@ -13,7 +13,7 @@ class ProductoP extends Model
     protected $returnType       = 'object';
     protected $useSoftDeletes   = false;
     protected $protectFields    = false;
-    protected $allowedFields    = ['idProducto','nombre','peso','descripción','precio','imagen','idDisponible','cantidad','idLocal','temporada','idCategoria'];
+    protected $allowedFields    = ['idProducto','nombre','peso','descripción','precio','imagen','idDisponible','cantidad','idLocal','temporada','idCategoria','vista'];
 
     // Dates
     protected $useTimestamps = false;
@@ -52,4 +52,18 @@ class ProductoP extends Model
         return $query->getResult();
 
     }
+
+    public function incrementarVistasProducto($idProducto) {
+        $db = db_connect();
+        $sql = "UPDATE producto SET vistas = vistas + 1 WHERE idProducto = ?";
+        $query = $db->query($sql, [$idProducto]);
+    }
+
+    public function getProductosMasVistos() {
+        $db = db_connect();
+        $sql = "SELECT * FROM producto ORDER BY vistas DESC LIMIT 10";
+        $query = $db->query($sql);
+        return $query->getResult();
+    }
+    
 }

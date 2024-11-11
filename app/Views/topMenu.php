@@ -25,7 +25,7 @@
         
             <ul class="navbar-nav">
                 <li class="Sucursales">
-                    <a class="nav-link Sucursales" href="/local">Sucursales</a>
+                    <a class="nav-link Sucursales" href="/local/sucursal">Sucursales</a>
                 </li>
                 <li class="Promociones">
                     <a class="nav-link Promociones" href="/promociones">Promociones</a>

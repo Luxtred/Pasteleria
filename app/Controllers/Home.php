@@ -6,6 +6,16 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('/topMenu');
+        return 
+        view('/topMenu').
+        view('/principal');
     }
+
+    public function Menu(): string
+    {
+        return 
+        view('/Menu');
+
+    }
+
 }

@@ -10,7 +10,7 @@ $routes->get('/', 'Home::index');
 
 
 $routes->get('/administrador', 'Administrador::index');
-$routes->get('/producto', 'Producto::index');
+$routes->get('/producto', 'Producto::Menu');
 $routes->get('/personal', 'Personal::index');
 $routes->get('/local', 'Local::index');
 $routes->get('/usuario','Usuario::index');
@@ -50,8 +50,9 @@ $routes->post('/usuario/acceder','Usuario::acceder');
 //Rutas del cliente
 
 $routes->get('/topMenu', 'Home::index');
-$routes->get('/principal', 'Home::index');
+$routes->get('/principal', 'Principal::index');
 $routes->get('/producto/showC', 'Producto::showC');
+$routes->get('/local/sucursal', 'Local::sucursal');
 
 
 

@@ -32,7 +32,7 @@ class Producto extends BaseController
         $data['producto'] = $productoP->getProducto();
         return 
             view('head').
-            view('menu').
+            
             view('producto/show', $data).
             view('footer');   
     }
@@ -125,6 +125,7 @@ class Producto extends BaseController
         $productoP->delete($idProducto);
         return redirect()->to(base_url('/producto'));
     }
+    
     public function ShowC(){
         $productoP = model('ProductoP');
 
@@ -135,5 +136,18 @@ class Producto extends BaseController
             view('producto/showc', $data).
             view('footer');  
     } 
+
+    public function verProducto($idProducto) {
+        $productoP = model('productoP');
+        
+        // Llama al método para incrementar las vistas
+        $model->incrementarVistasProducto($idProducto);
+        
+        // Luego, obtén la información del producto para mostrarla en la vista
+        $producto = $model->getProductoById($idProducto);
+        
+        return view('/principal', ['producto' => $producto]);
+    }
+    
     }
     

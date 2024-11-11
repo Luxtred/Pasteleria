@@ -88,7 +88,7 @@
       }
       
       /* Botón "Ver más" */
-      .menu-item button {
+      .button1 {
           background-color: #666;
           color: white;
           padding: 10px 20px;
@@ -141,41 +141,44 @@
         cursor: pointer;
           }
           /* Contenedor de los iconos */
-.icon-container {
-  display: flex;
-  gap: 15px;
-}
+        .icon-container {
+        display: flex;
+        gap: 15px;
+        }
 
-/* Estilos generales para los iconos */
-.icon {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+        /* Estilos generales para los iconos */
+        .icon {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
 
-/* Estilo para el icono de carrito */
-.cart-icon {
-  color: #A020F0;
-}
+        /* Estilo para el icono de carrito */
+        .cart-icon {
+        color: #A020F0;
+        }
 
-/* Badge del carrito */
-.cart-badge {
-  position: absolute;
-  top: -5px;
-  right: -5px;
-  background-color: #E0E0E0;
-  color: black;
-  font-size: 12px;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+        /* Badge del carrito */
+        .cart-badge {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        background-color: #E0E0E0;
+        color: black;
+        font-size: 12px;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+       
+      
 
       
       
