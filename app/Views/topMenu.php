@@ -8,7 +8,9 @@
     <link href="<?=base_url('/principal');?> ">
     <title>Pastelería ZZZ</title>
 
-
+    <div class="main-content">
+      
+      
 <!-- Barra Más Arriba -->
 <div class="BarraMasArriba">
     <div class="SeleccionaSucursal">Selecciona Sucursal</div>
@@ -68,7 +70,7 @@
     </nav>
 </nav>
 
-
+</div>
 
 
 </body>

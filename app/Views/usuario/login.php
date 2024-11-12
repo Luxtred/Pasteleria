@@ -15,7 +15,7 @@
             <p class="text-center">Ingresar e-mail y contraseña</p>
             <form action="<?=base_url('usuario/acceder'); ?>" method="POST">
                 <div class="form-group">
-                    <input type="text" class="form-control input-style" id="usuario" name="usuario" placeholder="Email" required>
+                    <input type="text" class="form-control input-style" id="email" name="email" placeholder="Email" required>
                 </div>
                 <div class="form-group">
                     <input type="password" class="form-control input-style" id="password" name="password" placeholder="Contraseña" required>
@@ -26,7 +26,7 @@
             </form>
             <div class="text-center mt-3">
                 <span>¿Nuevo Cliente?</span>
-                <a href="/usuario/micuenta" class="register-link">Crear Cuenta</a>
+                <a href="/usuario/miCuenta" class="register-link">Crear Cuenta</a>
             </div>
         </div>
     </div>

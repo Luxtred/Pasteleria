@@ -45,7 +45,10 @@ $routes->get('/local/delete/(:num)','Local::delete/$1');
 $routes->get('/usuario/salir','Usuario::salir');
 
 $routes->post('/usuario/acceder','Usuario::acceder');
-$routes->get('/usuario/micuenta','Usuario::micuenta');
+$routes->get('/usuario/miCuenta','Usuario::micuenta');
+//$routes->post('/usuario/crear_cuenta(:num)','Usuario::registrarUsuario/$1');
+$routes->post('/usuario/registrarUsuario(:num)', 'Usuario::registrarUsuario/$1');
+$routes->post('/usuario/registrarUsuario', 'Usuario::registrarUsuario');
 
 //Rutas del cliente
 
