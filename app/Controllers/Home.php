@@ -14,7 +14,7 @@ class Home extends BaseController
     public function Menu(): string
     {
         return 
-        view('/Menu');
+        view('/menu');
 
     }
 

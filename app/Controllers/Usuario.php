@@ -44,4 +44,6 @@ class Usuario extends BaseController
         return redirect()->to(base_url('/usuario'));
     
        }
+
+
 }

@@ -48,12 +48,12 @@
             </div>
 
             <!-- Icono de usuario -->
-            <div class="icon user-icon">
+            <a href="/usuario" class="icon user-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#5C3C6F" stroke-width="2">
-                    <circle cx="12" cy="8" r="4"></circle>
-                    <path d="M16 20c-1.33-2-4.67-2-6 0"></path>
-                </svg>
-            </div>
+                <circle cx="12" cy="8" r="4"></circle>
+                <path d="M16 20c-1.33-2-4.67-2-6 0"></path>
+            </svg>
+            </a>
 
             <!-- Icono de carrito de compras -->
             <div class="icon cart-icon">

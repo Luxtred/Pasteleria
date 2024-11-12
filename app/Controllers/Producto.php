@@ -27,18 +27,18 @@ class Producto extends BaseController
             return redirect()->to(base_url('/usuario'));
         }
 
-        $productoP = model('ProductoP');
+        $productoP = productoP('ProductoP');
 
         $data['producto'] = $productoP->getProducto();
         return 
             view('head').
-            
+            view('menu').
             view('producto/show', $data).
             view('footer');   
     }
 
     public function add():string{
-        $disponibleP = model('DisponibleP');
+        $disponibleP = productoP('DisponibleP');
         $data['disponibles'] = $disponibleP->findAll();
         return 
             view('head').
@@ -48,11 +48,11 @@ class Producto extends BaseController
     }
 
     public function edit($idProducto){
-        $disponibleP = model('DisponibleP');
+        $disponibleP = productoP('DisponibleP');
         $data['disponibles'] = $disponibleP->findAll();
 
         $idProducto = $data['idProducto'] = $idProducto;
-        $productoP = model('ProductoP');
+        $productoP = productoP('ProductoP');
         $data['producto'] =$productoP->where('idProducto',$idProducto)->findAll();
         return 
         view('head').
@@ -62,10 +62,10 @@ class Producto extends BaseController
     }
 
     public function update(){
-        $disponibleP = model('DisponibleP');
+        $disponibleP = productoP('DisponibleP');
         $data['disponibles'] = $disponibleP->findAll();
         
-        $productoP = model('ProductoP');
+        $productoP = productoP('ProductoP');
         $idProducto = $_POST['idProducto'];
         $data = [
                 'nombre' => $_POST['nombre'],
@@ -111,7 +111,7 @@ class Producto extends BaseController
                 view('footer'); 
             }
             else{
-                $productoP= model('ProductoP');
+                $productoP= productoP('ProductoP');
                 $productoP->insert($producto);
                 return redirect()->to(base_url('/producto'));
             }
@@ -121,13 +121,13 @@ class Producto extends BaseController
 
     public function delete($idProducto){
        
-        $productoP = model('productoP');
+        $productoP = productoP('productoP');
         $productoP->delete($idProducto);
         return redirect()->to(base_url('/producto'));
     }
     
     public function ShowC(){
-        $productoP = model('ProductoP');
+        $productoP = productoP('ProductoP');
 
         $data['producto'] = $productoP->getProducto();
         return 
@@ -138,13 +138,13 @@ class Producto extends BaseController
     } 
 
     public function verProducto($idProducto) {
-        $productoP = model('productoP');
+        $productoP = new ProductoP();
         
         // Llama al método para incrementar las vistas
-        $model->incrementarVistasProducto($idProducto);
+        $productoP->incrementarVistasProducto($idProducto);
         
         // Luego, obtén la información del producto para mostrarla en la vista
-        $producto = $model->getProductoById($idProducto);
+        $producto = $productoP->getProductoById($idProducto);
         
         return view('/principal', ['producto' => $producto]);
     }

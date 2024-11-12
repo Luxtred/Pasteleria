@@ -6,11 +6,11 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
-
+$routes->get('/menu', 'Home::Menu');
 
 
 $routes->get('/administrador', 'Administrador::index');
-$routes->get('/producto', 'Producto::Menu');
+$routes->get('/producto', 'Producto::index');
 $routes->get('/personal', 'Personal::index');
 $routes->get('/local', 'Local::index');
 $routes->get('/usuario','Usuario::index');
@@ -45,7 +45,7 @@ $routes->get('/local/delete/(:num)','Local::delete/$1');
 $routes->get('/usuario/salir','Usuario::salir');
 
 $routes->post('/usuario/acceder','Usuario::acceder');
-
+$routes->get('/usuario/micuenta','Usuario::micuenta');
 
 //Rutas del cliente
 

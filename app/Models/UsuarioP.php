@@ -13,7 +13,7 @@ class UsuarioP extends Model
     protected $returnType       = 'objetc';
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
-    protected $allowedFields    = ['idUsuario','usuario','password','tipo'];
+    protected $allowedFields    = ['idUsuario','usuario','password','tipo','email','apellido','nombre'];
 
     // Dates
     protected $useTimestamps = false;
