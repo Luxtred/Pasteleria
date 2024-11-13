@@ -27,7 +27,7 @@ class Producto extends BaseController
             return redirect()->to(base_url('/usuario'));
         }
 
-        $productoP = productoP('ProductoP');
+        $productoP = Model('ProductoP');
 
         $data['producto'] = $productoP->getProducto();
         return 
@@ -38,7 +38,7 @@ class Producto extends BaseController
     }
 
     public function add():string{
-        $disponibleP = productoP('DisponibleP');
+        $disponibleP = Model('DisponibleP');
         $data['disponibles'] = $disponibleP->findAll();
         return 
             view('head').
@@ -48,11 +48,11 @@ class Producto extends BaseController
     }
 
     public function edit($idProducto){
-        $disponibleP = productoP('DisponibleP');
+        $disponibleP = Model('DisponibleP');
         $data['disponibles'] = $disponibleP->findAll();
 
         $idProducto = $data['idProducto'] = $idProducto;
-        $productoP = productoP('ProductoP');
+        $productoP = Model('ProductoP');
         $data['producto'] =$productoP->where('idProducto',$idProducto)->findAll();
         return 
         view('head').
@@ -62,10 +62,10 @@ class Producto extends BaseController
     }
 
     public function update(){
-        $disponibleP = productoP('DisponibleP');
+        $disponibleP = Model('DisponibleP');
         $data['disponibles'] = $disponibleP->findAll();
         
-        $productoP = productoP('ProductoP');
+        $productoP = Model('ProductoP');
         $idProducto = $_POST['idProducto'];
         $data = [
                 'nombre' => $_POST['nombre'],
@@ -111,7 +111,7 @@ class Producto extends BaseController
                 view('footer'); 
             }
             else{
-                $productoP= productoP('ProductoP');
+                $productoP= Model('ProductoP');
                 $productoP->insert($producto);
                 return redirect()->to(base_url('/producto'));
             }
@@ -121,13 +121,13 @@ class Producto extends BaseController
 
     public function delete($idProducto){
        
-        $productoP = productoP('productoP');
+        $productoP = Model('productoP');
         $productoP->delete($idProducto);
         return redirect()->to(base_url('/producto'));
     }
     
     public function ShowC(){
-        $productoP = productoP('ProductoP');
+        $productoP = Model('ProductoP');
 
         $data['producto'] = $productoP->getProducto();
         return 
