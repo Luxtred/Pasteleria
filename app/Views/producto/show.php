@@ -15,8 +15,10 @@
                     <th class="text-primary">Peso</th>
                     <th class="text-primary">Descripción</th>
                     <th class="text-primary">Precio</th>
-                    <th class="text-primary">imagen</th>
                     <th class="text-primary">Disponibilidad</th>
+                    
+
+                    <th>Imagen</th> <!-- Nueva columna para la imagen -->
                 </thead>
                 <tbody>
                     <?php foreach($producto as $key) : ?>
@@ -26,8 +28,18 @@
                         <td><?=$key->peso; ?></td>
                         <td><?=$key->descripción; ?></td>
                         <td><?=$key->precio; ?></td>
-                        <td><?=$key->imagen; ?></td>
                         <td><?=$key->disponible; ?></td>
+
+                        <td>
+                            <?php if (!empty($key->idImagen)) : ?>
+                                <a href="<?= site_url('Imagen/getFile/' . $key->idImagen) ?>" target="_blank">
+                                <img src="<?= site_url('Imagen/getFile/' . $key->idImagen) ?>" alt="" class="img-fluid">
+                                    </a>
+                                <?php else: ?>
+                                    <p>No image available</p>
+                                <?php endif; ?>
+                            </td>
+
                         <td>
                             <a href="<?=base_url('producto/delete/'.$key->idProducto);?> " class="btn btn-outline-danger">Borrar</a>
                             <a href="<?=base_url('producto/edit/'.$key->idProducto);?> " class="btn btn-outline-success">Modificar</a>

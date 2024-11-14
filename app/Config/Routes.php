@@ -57,8 +57,17 @@ $routes->get('/principal', 'Principal::index');
 $routes->get('/producto/showC', 'Producto::showC');
 $routes->get('/local/sucursal', 'Local::sucursal');
 
+//añadir imagenes
 
+$routes->get('upload', 'Upload::index');          // Add this line.
+$routes->post('upload/upload', 'Upload::upload'); // Add this line.
+$routes->get('upload/viewFiles', 'Upload::viewFiles');
+$routes->get('Imagen/getFile/(:num)', 'Imagen::getFile/$1');
+$routes->post('/Imagen/upload','Imagen::upload');
+$routes->get('/imagen/add','Imagen::add');
 
+$routes->get('imagen/edit_image/(:num)', 'Imagen::edit_image/$1');
+$routes->post('imagen/update/(:num)', 'Imagen::update/$1');
 
 
 

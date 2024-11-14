@@ -28,6 +28,8 @@ class Producto extends BaseController
         }
 
         $productoP = Model('ProductoP');
+        $data['producto'] = $productoP->getImagenProducto();
+        $data['producto'] = $productoP->getImagenProducto();
 
         $data['producto'] = $productoP->getProducto();
         return 
@@ -40,6 +42,16 @@ class Producto extends BaseController
     public function add():string{
         $disponibleP = Model('DisponibleP');
         $data['disponibles'] = $disponibleP->findAll();
+         // Se obtiene el id de la imagen que se agrego
+
+         $db = \Config\Database::connect();
+         $builder = $db->table('imagen');
+         $builder->selectMax('idImagen');
+         $query = $builder->get();
+         $lastImagen = $query->getRow();
+         $data['lastImagen'] = $lastImagen->idImagen ?? null;
+
+        $data['disponibles'] = $disponibleP->findAll();
         return 
             view('head').
             view('menu').
@@ -51,8 +63,16 @@ class Producto extends BaseController
         $disponibleP = Model('DisponibleP');
         $data['disponibles'] = $disponibleP->findAll();
 
+        $db = \Config\Database::connect();
+        $builder = $db->table('imagen');
+        $builde = $db->table('imagen');
+        $builder->selectMax('idImagen');
+        $query = $builder->get();
+        $lastImagen = $query->getRow();
+        $data['lastImagen'] = $lastImagen->idImagen ?? null;
+
         $idProducto = $data['idProducto'] = $idProducto;
-        $productoP = Model('ProductoP');
+        $productoP = model('ProductoP');
         $data['producto'] =$productoP->where('idProducto',$idProducto)->findAll();
         return 
         view('head').
@@ -64,6 +84,18 @@ class Producto extends BaseController
     public function update(){
         $disponibleP = Model('DisponibleP');
         $data['disponibles'] = $disponibleP->findAll();
+
+        
+
+        $disponibleP = Model('DisponibleP');
+        $data['disponibles'] = $disponibleP->findAll();
+
+        $db = \Config\Database::connect();
+        $builder = $db->table('imagen');
+        $builder->selectMax('idImagen');
+        $query = $builder->get();
+        $lastImagen = $query->getRow();
+        $data['lastImagen'] = $lastImagen->idImagen ?? null;
         
         $productoP = Model('ProductoP');
         $idProducto = $_POST['idProducto'];
@@ -72,7 +104,7 @@ class Producto extends BaseController
                 'peso' => $_POST['peso'],
                 'descripción' => $_POST['descripción'],
                 'precio' => $_POST['precio'],
-                'imagen' => $_POST['imagen'],
+                'idImagen' => $_POST['idImagen'],
                 'idDisponible' => $_POST['idDisponible']
         ];
         $productoP->set($data)->where('idProducto',$idProducto)->update();
@@ -89,7 +121,7 @@ class Producto extends BaseController
                 'peso' => 'required',
                 'descripción' => 'required',
                 'precio' => 'required',
-                'imagen' => 'required',
+                'idImagen' => 'required',
                 'idDisponible' => 'required',
             ]; 
             $producto = [
@@ -97,7 +129,7 @@ class Producto extends BaseController
                 'peso' => $_POST['peso'],
                 'descripción' => $_POST['descripción'],
                 'precio' => $_POST['precio'],
-                'imagen' => $_POST['imagen'],
+                'idImagen' => $_POST['idImagen'],
                 'idDisponible' => $_POST['idDisponible']
             ];
             if (! $this->validate($rules)) {
@@ -121,15 +153,16 @@ class Producto extends BaseController
 
     public function delete($idProducto){
        
-        $productoP = Model('productoP');
+        $productoP = model('productoP');
         $productoP->delete($idProducto);
         return redirect()->to(base_url('/producto'));
     }
     
     public function ShowC(){
-        $productoP = Model('ProductoP');
+        $productoP = model('ProductoP');
 
-        $data['producto'] = $productoP->getProducto();
+
+        $data['producto'] = $productoP->getPompom();
         return 
             view('head').
             view('topMenu').
@@ -138,7 +171,7 @@ class Producto extends BaseController
     } 
 
     public function verProducto($idProducto) {
-        $productoP = new ProductoP();
+        $productoP = model ('ProductoP');
         
         // Llama al método para incrementar las vistas
         $productoP->incrementarVistasProducto($idProducto);
@@ -147,6 +180,22 @@ class Producto extends BaseController
         $producto = $productoP->getProductoById($idProducto);
         
         return view('/principal', ['producto' => $producto]);
+    }
+
+    public function Ver()
+    {
+       
+        $productoP = model('ProductoP');
+        $data['producto'] = $productoP->getImagenProducto();
+        return view('/producto') ;
+            //view('Cliente/Vista', $data);
+    }
+    public function verPastel($idProducto)
+    {
+        $productoP = model('ProductoP');
+        $data['producto'] = $productoP->getImagenProducto1($idProducto); // Filtra por idConsultorio en el método del modelo
+        return view('/topMenu') .
+               view('producto/showC', $data);
     }
     
     }

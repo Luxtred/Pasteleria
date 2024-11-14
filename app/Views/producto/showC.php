@@ -32,6 +32,7 @@
     </div>
 
     <!-- Sección de productos -->
+    <!-- Sección de productos -->
     <div class="product-section">
         <!-- Barra de búsqueda -->
         <div class="search-bar">
@@ -40,21 +41,26 @@
 
         <!-- Contenedor de productos -->
         <div class="product-grid">
+            <?php foreach ($producto as $producto): ?>
             <div class="product-card">
-                <img src="path/to/image1.jpg" alt="Tarta de chocolate">
-                <p class="product-name">Tarta de Chocolate</p>
-                <p class="product-price">$6.0</p>
+                <div class="imgSecundaria">
+                    <?php if (!empty($producto->idImagen)) : ?>
+                        <a href="<?= site_url('Imagen/getFile/' . $producto->idImagen) ?>" target="_blank">
+                            <img src="<?= site_url('Imagen/getFile/' . $producto->idImagen) ?>" alt="" class="img-fluid">
+                        </a>
+                    <?php else: ?>
+                        <p>No image available</p>
+                    <?php endif; ?>
+                </div>
+                <p class="product-name"><?= esc($producto->nombre) ?></p>
+                <p class="product-price"><?= esc($producto->precio) ?> $</p>
+                <a href="" class="btn btn-primary">
+                    <i class="bi bi-cart-fill"></i> Agregar
+                </a>
             </div>
-            <div class="product-card">
-                <div class="placeholder-img"></div>
-                <p class="product-name">Árabe Crema</p>
-                <p class="product-price">$6.0</p>
-            </div>
-            <div class="product-card">
-                <div class="placeholder-img"></div>
-                <p class="product-name">Árabe Crema</p>
-                <p class="product-price">$6.0</p>
-            </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
         </div>
     </div>
 </body>

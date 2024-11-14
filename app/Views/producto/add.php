@@ -33,10 +33,11 @@
             placeholder="" value="<?= set_value('precio') ?>">
         </div>
         <div class="mb-3">
-            <label for="producto" class="form-label">Imagen</label>
-            <input name="imagen" type="text" class="form-control" id="producto" 
+            <label for="idImagen" class="form-label">Imagen</label>
+            <input name="idImagen" type="hidden" class="form-control" id="idImagen" 
             required
-            placeholder="" value="<?= set_value('imagen') ?>">
+            placeholder="" value="<?= $lastImagen ?>" readonly>
+            <input type="num" class="form-control" value="<?= $lastImagen ?>" disabled>
         </div>
         <div class="mb-3">
             <label for="idDisponible" class="form-label">Disponible</label>        
@@ -49,6 +50,7 @@
             </div>       
         
         <input type="submit" class="btn btn-success" value="Agregar">
+        <a href="<?= base_url('imagen/add'); ?>" class="btn btn-success mt-3">Agregar Imagen</a>
         </form>
         </div>
     </div>

@@ -26,13 +26,13 @@
             <h2>ESPECIALIDAD DEL MES</h2>
             <div class="products">
                 <div class="product">
-                    <img src="imagen1.jpg" alt="Producto 1">
+                    <img src="imagen1.jpg" alt="">
                     <p>Pan de Muerto relleno de Membrillo Familiar</p>
                     <p>$100</p>
                     <button >Agregar</button>
                 </div>
                 <div class="product">
-                    <img src="imagen2.jpg" alt="Producto 2">
+                    <img src="1731524684_80a807ed4d28c2d7703b.jpg" alt="Producto 2">
                     <p>Pastel de Queso con Zarzamora Mediano</p>
                     <p>$100</p>
                     <button>Agregar</button>
@@ -62,15 +62,17 @@
             // Iteración a través de cada producto
             foreach ($productosMasVistos as $producto): ?>
                 <div class="product">
-                    <?php if (!empty($producto->imagen)): ?>
-                        <img src="<?= $producto->imagen ?>" alt="<?= $producto->nombre ?>">
+                <?php if (!empty($producto->idImagen)) : ?>
+                        <a href="<?= site_url('Imagen/getFile/' . $producto->idImagen) ?>" target="_blank">
+                            <img src="<?= site_url('Imagen/getFile/' . $producto->idImagen) ?>" alt="" class="img-fluid">
+                        </a>
                     <?php else: ?>
-                        <div class="placeholder-image">Imagen no disponible</div>
+                        <p>No image available</p>
                     <?php endif; ?>
                     <h3><?= $producto->nombre ?></h3>
                     <p>Vistas: <?= $producto->vistas ?></p>
                     <p> <?=$producto->precio; ?> </p>
-                    <button class="available">Disponible</button>
+                    
                 </div>
             <?php endforeach; ?>
         </div>
