@@ -1,0 +1,594 @@
+INFO - 2024-11-21 02:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 02:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 02:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 02:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 02:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 02:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 02:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 02:56:38 --> ErrorException: Undefined variable $key
+[Method: GET, Route: imagen]
+in APPPATH\Views\Imagen\show.php on line 30.
+ 1 APPPATH\Views\Imagen\show.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\Imagen\\show.php', 30)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\Imagen\\show.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('imagen/show', [], true)
+ 5 APPPATH\Controllers\Imagen.php(25): view('imagen/show')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Imagen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imagen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 02:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 02:58:19 --> ErrorException: Undefined variable $key
+[Method: GET, Route: imagen]
+in APPPATH\Views\Imagen\show.php on line 30.
+ 1 APPPATH\Views\Imagen\show.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\Imagen\\show.php', 30)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\Imagen\\show.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('imagen/show', [], true)
+ 5 APPPATH\Controllers\Imagen.php(25): view('imagen/show')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Imagen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imagen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:00:06 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: imagen]
+in APPPATH\Views\Imagen\show.php on line 37.
+ 1 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('imagen/show', [], true)
+ 3 APPPATH\Controllers\Imagen.php(25): view('imagen/show')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Imagen->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imagen))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:00:44 --> ErrorException: Undefined variable $imagen
+[Method: GET, Route: imagen]
+in APPPATH\Views\Imagen\show.php on line 18.
+ 1 APPPATH\Views\Imagen\show.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\Imagen\\show.php', 18)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\Imagen\\show.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('imagen/show', [], true)
+ 5 APPPATH\Controllers\Imagen.php(25): view('imagen/show')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Imagen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imagen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 03:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 03:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-21 03:12:36 --> mysqli_sql_exception: Unknown column 'local.idImagen' in 'where clause' in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('select local.*,...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select local.*,...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select local.*,...')
+#3 C:\xampp\htdocs\pastel\app\Models\LocalP.php(50): CodeIgniter\Database\BaseConnection->query('select local.*,...')
+#4 C:\xampp\htdocs\pastel\app\Controllers\Local.php(31): App\Models\LocalP->getImagenLocal()
+#5 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Local->index()
+#6 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+#7 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-21 03:12:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'local.idImagen' in 'where clause'
+[Method: GET, Route: local]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\LocalP.php(50): CodeIgniter\Database\BaseConnection->query('select local.*, imagen.*
+                from local, imagen 
+                where local.idImagen = imagen.idImagen 
+        ')
+ 2 APPPATH\Controllers\Local.php(31): App\Models\LocalP->getImagenLocal()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-21 03:12:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'local.idImagen' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select local.*, imagen.*
+                from local, imagen 
+                where local.idImagen = imagen.idImagen 
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select local.*, imagen.*
+                from local, imagen 
+                where local.idImagen = imagen.idImagen 
+        ')
+ 3 APPPATH\Models\LocalP.php(50): CodeIgniter\Database\BaseConnection->query('select local.*, imagen.*
+                from local, imagen 
+                where local.idImagen = imagen.idImagen 
+        ')
+ 4 APPPATH\Controllers\Local.php(31): App\Models\LocalP->getImagenLocal()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-21 03:12:36 --> [Caused by] mysqli_sql_exception: Unknown column 'local.idImagen' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select local.*, imagen.*
+                from local, imagen 
+                where local.idImagen = imagen.idImagen 
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select local.*, imagen.*
+                from local, imagen 
+                where local.idImagen = imagen.idImagen 
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select local.*, imagen.*
+                from local, imagen 
+                where local.idImagen = imagen.idImagen 
+        ')
+ 4 APPPATH\Models\LocalP.php(50): CodeIgniter\Database\BaseConnection->query('select local.*, imagen.*
+                from local, imagen 
+                where local.idImagen = imagen.idImagen 
+        ')
+ 5 APPPATH\Controllers\Local.php(31): App\Models\LocalP->getImagenLocal()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-21 03:15:21 --> mysqli_sql_exception: Unknown column 'imagen.idImage' in 'where clause' in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(312): mysqli->query('select local.*,...', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select local.*,...')
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select local.*,...')
+#3 C:\xampp\htdocs\pastel\app\Models\LocalP.php(50): CodeIgniter\Database\BaseConnection->query('select local.*,...')
+#4 C:\xampp\htdocs\pastel\app\Controllers\Local.php(31): App\Models\LocalP->getImagenLocal()
+#5 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Local->index()
+#6 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+#7 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-21 03:15:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'imagen.idImage' in 'where clause'
+[Method: GET, Route: local]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\LocalP.php(50): CodeIgniter\Database\BaseConnection->query('select local.*, imagen.*
+                from local, imagen 
+                where local.idImage = imagen.idImage 
+        ')
+ 2 APPPATH\Controllers\Local.php(31): App\Models\LocalP->getImagenLocal()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-21 03:15:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'imagen.idImage' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select local.*, imagen.*
+                from local, imagen 
+                where local.idImage = imagen.idImage 
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select local.*, imagen.*
+                from local, imagen 
+                where local.idImage = imagen.idImage 
+        ')
+ 3 APPPATH\Models\LocalP.php(50): CodeIgniter\Database\BaseConnection->query('select local.*, imagen.*
+                from local, imagen 
+                where local.idImage = imagen.idImage 
+        ')
+ 4 APPPATH\Controllers\Local.php(31): App\Models\LocalP->getImagenLocal()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-21 03:15:21 --> [Caused by] mysqli_sql_exception: Unknown column 'imagen.idImage' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('select local.*, imagen.*
+                from local, imagen 
+                where local.idImage = imagen.idImage 
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('select local.*, imagen.*
+                from local, imagen 
+                where local.idImage = imagen.idImage 
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select local.*, imagen.*
+                from local, imagen 
+                where local.idImage = imagen.idImage 
+        ')
+ 4 APPPATH\Models\LocalP.php(50): CodeIgniter\Database\BaseConnection->query('select local.*, imagen.*
+                from local, imagen 
+                where local.idImage = imagen.idImage 
+        ')
+ 5 APPPATH\Controllers\Local.php(31): App\Models\LocalP->getImagenLocal()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:15:48 --> ErrorException: Undefined variable $query
+[Method: GET, Route: local]
+in APPPATH\Models\LocalP.php on line 51.
+ 1 APPPATH\Models\LocalP.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\xampp\\htdocs\\pastel\\app\\Models\\LocalP.php', 51)
+ 2 APPPATH\Controllers\Local.php(31): App\Models\LocalP->getImagenLocal()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 03:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:16:18 --> ErrorException: Undefined variable $lastImagen
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:23:54 --> ErrorException: Undefined variable $lastImagen
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:23:57 --> ErrorException: Undefined variable $lastImagen
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:24:28 --> ErrorException: Undefined variable $lastImagen
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:25:14 --> ErrorException: Undefined variable $lastImagen
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:26:36 --> ErrorException: Undefined variable $lastImagen
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:29:33 --> ErrorException: Undefined variable $lastImagen
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:30:51 --> ErrorException: Undefined variable $lastImage
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImage', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:32:38 --> ErrorException: Undefined variable $lastImage
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImage', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:32:41 --> ErrorException: Undefined variable $lastImage
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImage', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:40:19 --> ErrorException: Undefined variable $lastImage
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImage', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:41:23 --> ErrorException: Undefined variable $lastImagen
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:41:25 --> ErrorException: Undefined variable $lastImagen
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:44:00 --> ErrorException: Undefined variable $lastImagen
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:53:31 --> ErrorException: Undefined variable $lastImagen
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:53:35 --> ErrorException: Undefined variable $lastImagen
+[Method: GET, Route: local/add/]
+in APPPATH\Views\local\add.php on line 44.
+ 1 APPPATH\Views\local\add.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastImagen', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php', 44)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\local\\add.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/add', [], true)
+ 5 APPPATH\Controllers\Local.php(52): view('local/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 03:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 03:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 03:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 03:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 03:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 03:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 03:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-21 03:59:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "image/image.php"
+[Method: GET, Route: image/add]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('image/image.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('image/image', [], true)
+ 3 APPPATH\Controllers\Image.php(31): view('image/image', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Image->add()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-21 04:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-21 04:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-21 20:40:16 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'pasteleria', 3306, '', 0)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pastel\app\Models\ProductoP.php(65): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\pastel\app\Views\principal.php(60): App\Models\ProductoP->getProductosMasVistos()
+#5 C:\xampp\htdocs\pastel\system\View\View.php(235): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pastel\system\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\pastel\system\Common.php(1169): CodeIgniter\View\View->render('/principal', Array, true)
+#8 C:\xampp\htdocs\pastel\app\Controllers\Home.php(11): view('/principal')
+#9 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\pastel\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pastel\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pastel\app\Models\ProductoP.php(65): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#3 C:\xampp\htdocs\pastel\app\Views\principal.php(60): App\Models\ProductoP->getProductosMasVistos()
+#4 C:\xampp\htdocs\pastel\system\View\View.php(235): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pastel\system\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\pastel\system\Common.php(1169): CodeIgniter\View\View->render('/principal', Array, true)
+#7 C:\xampp\htdocs\pastel\app\Controllers\Home.php(11): view('/principal')
+#8 C:\xampp\htdocs\pastel\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\pastel\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pastel\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pastel\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\pastel\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\pastel\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\pastel\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-11-21 20:40:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\ProductoP.php(65): CodeIgniter\Database\BaseConnection->query('SELECT * FROM producto ORDER BY vistas DESC LIMIT 10')
+ 3 APPPATH\Views\principal.php(60): App\Models\ProductoP->getProductosMasVistos()
+ 4 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\principal.php')
+ 5 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('/principal', [], true)
+ 7 APPPATH\Controllers\Home.php(11): view('/principal')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')

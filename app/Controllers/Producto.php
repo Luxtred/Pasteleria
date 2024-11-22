@@ -23,15 +23,16 @@ class Producto extends BaseController
     public function index()
     {
         $session = session();
-        if($session->get('logged_in')!=true || $session->get('tipo')!=2){
+        if($session->get('logged_in')!=true || $session->get('tipo')!=1){
             return redirect()->to(base_url('/usuario'));
         }
 
         $productoP = Model('ProductoP');
+        
         $data['producto'] = $productoP->getImagenProducto();
-        $data['producto'] = $productoP->getImagenProducto();
-
         $data['producto'] = $productoP->getProducto();
+
+
         return 
             view('head').
             view('menu').
@@ -42,6 +43,9 @@ class Producto extends BaseController
     public function add():string{
         $disponibleP = Model('DisponibleP');
         $data['disponibles'] = $disponibleP->findAll();
+
+        $categoriaP = Model('CategoriaP');
+        $data['categorias'] = $categoriaP->findAll();
          // Se obtiene el id de la imagen que se agrego
 
          $db = \Config\Database::connect();
@@ -50,8 +54,6 @@ class Producto extends BaseController
          $query = $builder->get();
          $lastImagen = $query->getRow();
          $data['lastImagen'] = $lastImagen->idImagen ?? null;
-
-        $data['disponibles'] = $disponibleP->findAll();
         return 
             view('head').
             view('menu').
@@ -62,6 +64,9 @@ class Producto extends BaseController
     public function edit($idProducto){
         $disponibleP = Model('DisponibleP');
         $data['disponibles'] = $disponibleP->findAll();
+
+        $categoriaP = Model('CategoriaP');
+        $data['categorias'] = $categoriaP->findAll();
 
         $db = \Config\Database::connect();
         $builder = $db->table('imagen');
@@ -82,10 +87,8 @@ class Producto extends BaseController
     }
 
     public function update(){
-        $disponibleP = Model('DisponibleP');
-        $data['disponibles'] = $disponibleP->findAll();
-
-        
+        $categoriaP = Model('CategoriaP');
+        $data['categorias'] = $categoriaP->findAll();
 
         $disponibleP = Model('DisponibleP');
         $data['disponibles'] = $disponibleP->findAll();
@@ -105,7 +108,8 @@ class Producto extends BaseController
                 'descripción' => $_POST['descripción'],
                 'precio' => $_POST['precio'],
                 'idImagen' => $_POST['idImagen'],
-                'idDisponible' => $_POST['idDisponible']
+                'idDisponible' => $_POST['idDisponible'],
+                'idCategoria' => $_POST['idCategoria']
         ];
         $productoP->set($data)->where('idProducto',$idProducto)->update();
         return redirect()->to(base_url('/producto'));    
@@ -123,6 +127,7 @@ class Producto extends BaseController
                 'precio' => 'required',
                 'idImagen' => 'required',
                 'idDisponible' => 'required',
+                'idCategoria' => 'required',
             ]; 
             $producto = [
                 'nombre' => $_POST['nombre'],
@@ -130,7 +135,8 @@ class Producto extends BaseController
                 'descripción' => $_POST['descripción'],
                 'precio' => $_POST['precio'],
                 'idImagen' => $_POST['idImagen'],
-                'idDisponible' => $_POST['idDisponible']
+                'idDisponible' => $_POST['idDisponible'],
+                'idCategoria' => $_POST['idCategoria']
             ];
             if (! $this->validate($rules)) {
                 // Si la validación falla, vuelve a cargar la vista con los errores
@@ -160,15 +166,28 @@ class Producto extends BaseController
     
     public function ShowC(){
         $productoP = model('ProductoP');
-
+        $categoriaP = Model('CategoriaP');
 
         $data['producto'] = $productoP->getPompom();
+        $data['categorias'] = $categoriaP->findAll();
         return 
             view('head').
             view('topMenu').
             view('producto/showc', $data).
             view('footer');  
     } 
+
+    
+    public function pastelP($idProducto) {
+        $productoP = model('ProductoP');
+        $data['producto'] = $productoP->find($idProducto); // Obtén el producto específico por ID
+    
+        return view('head') .
+               view('topMenu') .
+               view('producto/pastelP', $data) .
+               view('footer');
+    }
+    
 
     public function verProducto($idProducto) {
         $productoP = model ('ProductoP');
@@ -179,7 +198,9 @@ class Producto extends BaseController
         // Luego, obtén la información del producto para mostrarla en la vista
         $producto = $productoP->getProductoById($idProducto);
         
-        return view('/principal', ['producto' => $producto]);
+        return 
+        view('/principal', 
+        ['producto' => $producto]);
     }
 
     public function Ver()
@@ -198,5 +219,18 @@ class Producto extends BaseController
                view('producto/showC', $data);
     }
     
+    public function getProductosPorCategoria($idCategoria = null) {
+        $productoP = Model('ProductoP');
+        
+        if ($idCategoria) {
+            $productos = $productoP->where('idCategoria', $idCategoria)->findAll();
+        } else {
+            $productos = $productoP->findAll();
+        }
+        
+        return $this->response->setJSON($productos);
+    }
+
+
     }
     

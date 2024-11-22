@@ -13,13 +13,19 @@
     
  <!-- Contenedor principal del menú -->
  <div class="menu">
-        
-        <!-- Sección de Panes de Alta Calidad -->
-        <div class="menu-item">
-            <h2>PANES DE ALTA CALIDAD</h2>
-            <p>Conoce nuestros deliciosos panes</p>
-            <a  class=button1 href="<?=base_url('/producto/showC');?>">Ver más</a>
+    <!-- Banner decorativo -->
+    <div class="banner-menu">
+        <div class="banner-content">
+            <h1>Bienvenidos a Nuestra Pastelería</h1>
+            <p>Explora nuestra selección de panes y postres únicos</p>
+            <p></p>
+            <a class="button1" href="<?=base_url('/producto/showC');?>">Ver más</a>
         </div>
+    </div>
+    
+ <div class="menu">
+        
+   
         
         <!-- Sección de Especialidad del Mes -->
         <div class="menu-item">
@@ -51,7 +57,7 @@
         <div class="text-section">
             <h2>LOS MÁS BUSCADOS</h2>
             <p>Eleva tu día con el pan y pasteles favoritos de nuestros invitados.</p>
-            <button>VISITAR TIENDA</button>
+            <button href="<?=base_url('/producto/showC');?>">VISITAR TIENDA</button>
         </div>
         <div class="product-grid">
             <?php

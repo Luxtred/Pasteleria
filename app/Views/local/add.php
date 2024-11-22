@@ -37,8 +37,16 @@
             required
             placeholder="" value="<?= set_value('telefono') ?>">
         </div>
-        
+        <div class="mb-3">
+            <label for="idImage" class="form-label">Imagen</label>
+            <input name="idImage" type="hidden" class="form-control" id="idImage" 
+            required
+            placeholder="" value="<?= $lastImage ?>" readonly>
+            <input type="num" class="form-control" value="<?= $lastImage ?>" disabled>
+        </div>   
+
         <input type="submit" class="btn btn-success" value="Agregar">
+        <a href="<?= base_url('image/add'); ?>" class="btn btn-success mt-3">Agregar Imagen</a>
         </form>
     
     </div>

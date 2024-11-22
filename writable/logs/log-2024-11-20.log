@@ -1,0 +1,115 @@
+INFO - 2024-11-20 19:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-20 19:23:54 --> ErrorException: Undefined variable $data
+[Method: GET, Route: producto/pastelito]
+in APPPATH\Controllers\Producto.php on line 186.
+ 1 APPPATH\Controllers\Producto.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Producto.php', 186)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Pastelito()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-20 19:26:49 --> ErrorException: Attempt to read property "nombre" on array
+[Method: GET, Route: producto/pastelito]
+in APPPATH\Views\producto\pastelP.php on line 13.
+ 1 APPPATH\Views\producto\pastelP.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 13)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(187): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Pastelito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-20 19:29:42 --> ErrorException: Attempt to read property "nombre" on array
+[Method: GET, Route: producto/pastelito]
+in APPPATH\Views\producto\pastelP.php on line 13.
+ 1 APPPATH\Views\producto\pastelP.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 13)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(187): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Pastelito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-20 19:41:03 --> ErrorException: Attempt to read property "nombre" on array
+[Method: GET, Route: producto/pastelito]
+in APPPATH\Views\producto\pastelP.php on line 29.
+ 1 APPPATH\Views\producto\pastelP.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 29)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(188): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Pastelito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-20 19:43:39 --> ErrorException: Attempt to read property "nombre" on array
+[Method: GET, Route: producto/pastelito]
+in APPPATH\Views\producto\pastelP.php on line 29.
+ 1 APPPATH\Views\producto\pastelP.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 29)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(188): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Pastelito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-20 19:46:24 --> ErrorException: Undefined property: stdClass::$descripcion
+[Method: GET, Route: producto/pastelito]
+in APPPATH\Views\producto\pastelP.php on line 32.
+ 1 APPPATH\Views\producto\pastelP.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$descripcion', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 32)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(188): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Pastelito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-20 19:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-20 20:26:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "producto/pastelP/.php"
+[Method: GET, Route: producto/pastelP/24]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('producto/pastelP/.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP/', [], true)
+ 3 APPPATH\Controllers\Producto.php(187): view('producto/pastelP/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->PastelP('24')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-20 20:28:20 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: producto/pastelP/24]
+in APPPATH\Views\producto\pastelP.php on line 27.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 4 APPPATH\Controllers\Producto.php(187): view('producto/pastelP', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->PastelP('24')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')

@@ -43,6 +43,15 @@
                 <?php endforeach ?>
                 </select>
         </div> 
+        <div class="mb-3">
+            <label for="idCategoria" class="form-label">Categoria</label>
+            <select name="idCategoria" class="form-control" >
+                <?php foreach ($categorias as $key ) :?>
+                   <option value="<?=$key->idCategoria?>"><?=$key->categoria?></option>
+                <?php endforeach ?>
+                </select>
+        </div> 
+
         <input type="submit" class="btn btn-outline-primary" name="Guardar" value="Guardar">
 
         <a href="<?= base_url('imagen/edit_image'); ?>" class="btn btn-success mt-3">Agregar Imagen</a>

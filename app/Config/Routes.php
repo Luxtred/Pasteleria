@@ -42,6 +42,7 @@ $routes->get('/producto/delete/(:num)','Producto::delete/$1');
 $routes->get('/personal/delete/(:num)','Personal::delete/$1');
 $routes->get('/local/delete/(:num)','Local::delete/$1');
 
+
 $routes->get('/usuario/salir','Usuario::salir');
 
 $routes->post('/usuario/acceder','Usuario::acceder');
@@ -55,6 +56,7 @@ $routes->post('/usuario/registrarUsuario', 'Usuario::registrarUsuario');
 $routes->get('/topMenu', 'Home::index');
 $routes->get('/principal', 'Principal::index');
 $routes->get('/producto/showC', 'Producto::showC');
+$routes->get('/producto/pastelP/(:num)', 'Producto::pastelP/$1');
 $routes->get('/local/sucursal', 'Local::sucursal');
 
 //añadir imagenes
@@ -65,6 +67,11 @@ $routes->get('upload/viewFiles', 'Upload::viewFiles');
 $routes->get('Imagen/getFile/(:num)', 'Imagen::getFile/$1');
 $routes->post('/Imagen/upload','Imagen::upload');
 $routes->get('/imagen/add','Imagen::add');
+
+$routes->get('/image/add','Image::add');
+$routes->get('Image/getFile/(:num)', 'Image::getFile/$1');
+$routes->post('/Image/upload','Image::upload');
+
 
 $routes->get('imagen/edit_image/(:num)', 'Imagen::edit_image/$1');
 $routes->post('imagen/update/(:num)', 'Imagen::update/$1');

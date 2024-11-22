@@ -36,7 +36,7 @@
                     <a class="nav-link LoNuevo" href="/lo-nuevo">Lo Nuevo</a>
                 </li>
                 <li class="OrdenaAqui">
-                    <a class="nav-link OrdenaAqui" href="/ordena-aqui">Ordena Aquí</a>
+                    <a class="nav-link OrdenaAqui" href="/producto/showC">Ordena Aquí</a>
                 </li>
             </ul>
      <!-- Iconos -->

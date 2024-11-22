@@ -16,7 +16,7 @@
                     <th class="text-primary">Descripción</th>
                     <th class="text-primary">Precio</th>
                     <th class="text-primary">Disponibilidad</th>
-                    
+                    <th class="text-primary">Categoria</th>
 
                     <th>Imagen</th> <!-- Nueva columna para la imagen -->
                 </thead>
@@ -28,8 +28,8 @@
                         <td><?=$key->peso; ?></td>
                         <td><?=$key->descripción; ?></td>
                         <td><?=$key->precio; ?></td>
-                        <td><?=$key->disponible; ?></td>
-
+                        <td><?=$key->disponible;?></td>
+                        <td><?=$key->categoria; ?></td>
                         <td>
                             <?php if (!empty($key->idImagen)) : ?>
                                 <a href="<?= site_url('Imagen/getFile/' . $key->idImagen) ?>" target="_blank">
@@ -39,6 +39,8 @@
                                     <p>No image available</p>
                                 <?php endif; ?>
                             </td>
+
+                            
 
                         <td>
                             <a href="<?=base_url('producto/delete/'.$key->idProducto);?> " class="btn btn-outline-danger">Borrar</a>

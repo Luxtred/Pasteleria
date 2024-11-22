@@ -43,8 +43,8 @@ class Imagen extends BaseController
                     'uploaded[imagen]',
                     'is_image[imagen]',
                     'mime_in[imagen,image/jpg,image/jpeg,image/gif,image/png,image/webp]',
-                    'max_size[imagen,100]',
-                    'max_dims[imagen,1080,1080]',
+                    'max_size[imagen,300]',
+                    'max_dims[imagen,1024,768]',
                 ],
             ],
         ];
@@ -107,7 +107,9 @@ class Imagen extends BaseController
     {
 
         $productoP = model('ProductoP');
+
         $productoP->delete($idProducto);
-        return redirect()->to(base_url('/producto'));
+        return 
+        redirect()->to(base_url('/producto'));
     }
 }
