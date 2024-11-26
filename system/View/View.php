@@ -222,7 +222,6 @@ class View implements RendererInterface
             throw ViewException::forInvalidFile($this->renderVars['view']);
         }
 
-        
         // Make our view data available to the view.
         $this->prepareTemplateData($saveData);
 

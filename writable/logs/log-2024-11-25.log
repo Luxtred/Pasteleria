@@ -1,0 +1,390 @@
+ERROR - 2024-11-25 18:14:08 --> mysqli_sql_exception: Table 'pasteleria.categoria' doesn't exist in C:\xampp\htdocs\Pasteleria\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Pasteleria\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Pasteleria\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Pasteleria\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Pasteleria\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Pasteleria\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Pasteleria\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Pasteleria\app\Controllers\Producto.php(172): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(933): App\Controllers\Producto->ShowC()
+#8 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Pasteleria\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Pasteleria\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Pasteleria\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Pasteleria\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-25 18:14:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.categoria' doesn't exist
+[Method: GET, Route: producto/showC]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Producto.php(172): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->ShowC()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+CRITICAL - 2024-11-25 18:14:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Producto.php(172): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->ShowC()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+CRITICAL - 2024-11-25 18:14:08 --> [Caused by] mysqli_sql_exception: Table 'pasteleria.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `categoria`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Producto.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->ShowC()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+INFO - 2024-11-25 18:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 18:16:20 --> mysqli_sql_exception: Table 'pasteleria.categoria' doesn't exist in C:\xampp\htdocs\Pasteleria\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Pasteleria\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT producto...', 0)
+#1 C:\xampp\htdocs\Pasteleria\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT producto...')
+#2 C:\xampp\htdocs\Pasteleria\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT producto...')
+#3 C:\xampp\htdocs\Pasteleria\app\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto...')
+#4 C:\xampp\htdocs\Pasteleria\app\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+#5 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(933): App\Controllers\Producto->index()
+#6 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pasteleria\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pasteleria\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Pasteleria\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\Pasteleria\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-25 18:16:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.categoria' doesn't exist
+[Method: GET, Route: producto]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 2 APPPATH\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+CRITICAL - 2024-11-25 18:16:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 3 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 4 APPPATH\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+CRITICAL - 2024-11-25 18:16:20 --> [Caused by] mysqli_sql_exception: Table 'pasteleria.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 4 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 5 APPPATH\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+INFO - 2024-11-25 18:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 18:16:31 --> BadMethodCallException: Call to undefined method App\Models\LocalP::getImagenLocal
+[Method: GET, Route: local]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Local.php(31): CodeIgniter\Model->__call('getImagenLocal', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+INFO - 2024-11-25 18:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 18:17:32 --> mysqli_sql_exception: Table 'pasteleria.categoria' doesn't exist in C:\xampp\htdocs\Pasteleria\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Pasteleria\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT producto...', 0)
+#1 C:\xampp\htdocs\Pasteleria\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT producto...')
+#2 C:\xampp\htdocs\Pasteleria\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT producto...')
+#3 C:\xampp\htdocs\Pasteleria\app\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto...')
+#4 C:\xampp\htdocs\Pasteleria\app\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+#5 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(933): App\Controllers\Producto->index()
+#6 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pasteleria\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pasteleria\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Pasteleria\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\Pasteleria\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-25 18:17:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.categoria' doesn't exist
+[Method: GET, Route: producto]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 2 APPPATH\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+CRITICAL - 2024-11-25 18:17:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 3 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 4 APPPATH\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+CRITICAL - 2024-11-25 18:17:32 --> [Caused by] mysqli_sql_exception: Table 'pasteleria.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 4 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 5 APPPATH\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+INFO - 2024-11-25 19:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 19:09:59 --> mysqli_sql_exception: Table 'pasteleria.categoria' doesn't exist in C:\xampp\htdocs\Pasteleria\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Pasteleria\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT producto...', 0)
+#1 C:\xampp\htdocs\Pasteleria\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT producto...')
+#2 C:\xampp\htdocs\Pasteleria\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT producto...')
+#3 C:\xampp\htdocs\Pasteleria\app\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto...')
+#4 C:\xampp\htdocs\Pasteleria\app\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+#5 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(933): App\Controllers\Producto->index()
+#6 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pasteleria\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pasteleria\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Pasteleria\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\Pasteleria\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-25 19:09:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.categoria' doesn't exist
+[Method: GET, Route: producto]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 2 APPPATH\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+CRITICAL - 2024-11-25 19:09:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 3 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 4 APPPATH\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+CRITICAL - 2024-11-25 19:09:59 --> [Caused by] mysqli_sql_exception: Table 'pasteleria.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 4 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 5 APPPATH\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+INFO - 2024-11-25 19:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 19:10:02 --> BadMethodCallException: Call to undefined method App\Models\LocalP::getImagenLocal
+[Method: GET, Route: local]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Local.php(31): CodeIgniter\Model->__call('getImagenLocal', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Local->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Local))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+INFO - 2024-11-25 19:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 19:36:29 --> mysqli_sql_exception: Table 'pasteleria.categoria' doesn't exist in C:\xampp\htdocs\Pasteleria\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Pasteleria\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT producto...', 0)
+#1 C:\xampp\htdocs\Pasteleria\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT producto...')
+#2 C:\xampp\htdocs\Pasteleria\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT producto...')
+#3 C:\xampp\htdocs\Pasteleria\app\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto...')
+#4 C:\xampp\htdocs\Pasteleria\app\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+#5 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(933): App\Controllers\Producto->index()
+#6 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\Pasteleria\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pasteleria\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pasteleria\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Pasteleria\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\Pasteleria\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-25 19:36:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.categoria' doesn't exist
+[Method: GET, Route: producto]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 2 APPPATH\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+CRITICAL - 2024-11-25 19:36:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'pasteleria.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 3 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 4 APPPATH\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+CRITICAL - 2024-11-25 19:36:29 --> [Caused by] mysqli_sql_exception: Table 'pasteleria.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 4 APPPATH\Models\ProductoP.php(49): CodeIgniter\Database\BaseConnection->query('SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria')
+ 5 APPPATH\Controllers\Producto.php(33): App\Models\ProductoP->getProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Pasteleria\\public\\index.php')
+INFO - 2024-11-25 19:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

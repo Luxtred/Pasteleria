@@ -10,13 +10,13 @@ class UsuarioP extends Model
     protected $table            = 'usuario';
     protected $primaryKey       = 'idUsuario';
     protected $useAutoIncrement = true;
-    protected $returnType       = 'object';
+    protected $returnType       = 'objetc';
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
-    protected $allowedFields    = ['idUsuario','password','tipo','email','apellido','nombre'];
+    protected $allowedFields    = ['idUsuario','usuario','password','tipo','email','apellido','nombre'];
 
     // Dates
-    protected $useTimestamps = true;
+    protected $useTimestamps = false;
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
@@ -39,13 +39,14 @@ class UsuarioP extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
-    public function valida($email, $password){
+    public function valida($usuario, $password){
         $db = db_connect();
-        
-        // Usar una consulta preparada para evitar inyecciones SQL
-        $sql = "SELECT email, tipo FROM usuario WHERE email = ? AND password = ?";
-        $query = $db->query($sql, [$email, $password]);
-        
+        $sql ="select usuario, tipo
+        from usuario 
+        where usuario = '".$usuario."' and password ='". $password."'";
+        //print $sql;
+        $query= $db->query($sql);
+        //print $db->lastQuery;
         return $query->getResult();
-    }
+        }
 }

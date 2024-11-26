@@ -7,19 +7,26 @@
 }
 
 /* Banner */
-
-/* Estilos para el Banner */
 .banner {
-    background-image: url('/pastelitos/banner2.jpg'); /* Ruta absoluta desde la raíz pública */
-    background-size: cover; /* La imagen cubre todo el espacio del banner */
-    background-position: center; /* Centra la imagen */
-    height: 400px; /* Altura del banner */
-    display: flex; /* Permite alinear contenido dentro del banner */
-    align-items: center; /* Centra el contenido verticalmente */
-    justify-content: center; /* Centra el contenido horizontalmente */
-    color: white; /* Color del texto en el banner */
-    text-align: center; /* Centra el texto dentro del banner */
-    position: relative; /* Para posicionar contenido adicional si es necesario */
+    background-color: #ccc; /* Color gris temporal */
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner-text p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.banner-text span {
+    font-size: 1.5rem;
 }
 
 /* Categorías */
@@ -61,27 +68,22 @@
 }
 
 /* Productos */
-/* Productos */
 .product-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    margin-left: 1.5cm; /* Margen lateral izquierdo */
-    margin-right: 1.5cm; /* Margen lateral derecho */
 }
 
 .product-grid {
-    display: grid;
+    display: flex;
     gap: 20px;
-    grid-template-columns: repeat(4, 1fr); /* Ajuste para mostrar 4 productos por fila */
-    justify-items: center;
-    width: calc(100% - 3cm); /* Ajustar ancho total menos los márgenes */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .product-card {
-    width: 100%;
-    max-width: none; /* Eliminamos el max-width para que los productos se ajusten a la nueva configuración de grid */
+    width: 150px;
     padding: 10px;
     text-align: center;
     border: 1px solid #ccc;
@@ -91,7 +93,7 @@
 
 .product-card img, .placeholder-img {
     width: 100%;
-    height: 200px; /* Puedes ajustar la altura según necesites */
+    height: 100px;
     background-color: #eee;
     border-radius: 10px;
 }
@@ -107,4 +109,3 @@
     font-weight: bold;
     margin-top: 5px;
 }
-

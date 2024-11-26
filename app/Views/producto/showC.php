@@ -9,13 +9,13 @@
     
 </head>
 <body>
-
     <!-- Banner superior -->
     <div class="banner">
-        <div >
-        
-            <div >
-              
+        <div class="banner-content">
+            <div class="banner-text">
+                <p>ORDENA EN LÍNEA</p>
+                <span>➡</span>
+                <p>RECOGE EN TIENDA</p>
             </div>
         </div>
     </div>
@@ -23,11 +23,13 @@
     <!-- Sección de categorías -->
     <div class="categories">
         <button class="category-btn active">Todos</button>
-        <?php foreach ($categorias as $categoria): ?>
-        <button class="category-btn"><?= $categoria->categoria ?></button>
-        <?php endforeach; ?>
+        <button class="category-btn">Bebidas</button>
+        <button class="category-btn">Especial del Mes</button>
+        <button class="category-btn">Gelatinas</button>
+        <button class="category-btn">Helados</button>
+        <button class="category-btn">Panadería</button>
+        <button class="category-btn">Pasteles</button>
     </div>
-
 
     <!-- Sección de productos -->
     <div class="product-section">
@@ -35,29 +37,25 @@
         <div class="search-bar">
             <input type="text" placeholder="Buscar producto...">
         </div>
-    <!-- Contenedor de productos -->
-<div class="product-grid">
-    <?php foreach ($producto as $producto): ?>
-    <div class="product-card">
-        <div class="imgSecundaria">
-            <?php if (!empty($producto->idImagen)) : ?>
-                
-                    <img src="<?= site_url('Imagen/getFile/' . $producto->idImagen) ?>" alt="" class="img-fluid">
-                </a>
-            <?php else: ?>
-                <p>No image available</p>
-            <?php endif; ?>
-        </div>
-        <a href="<?= site_url('/producto/pastelP/') . $producto->idProducto ?>" >
-            <p class="product-name"><?= esc($producto->nombre) ?></p>
-        </a>
-        <p class="product-price"><?= esc($producto->precio) ?> </p>
-        <a href="" class="btn btn-primary">
-            <i class="bi bi-cart-fill"></i> Agregar
-        </a>
-    </div>
-    <?php endforeach; ?>
-</div>
 
+        <!-- Contenedor de productos -->
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="path/to/image1.jpg" alt="Tarta de chocolate">
+                <p class="product-name">Tarta de Chocolate</p>
+                <p class="product-price">$6.0</p>
+            </div>
+            <div class="product-card">
+                <div class="placeholder-img"></div>
+                <p class="product-name">Árabe Crema</p>
+                <p class="product-price">$6.0</p>
+            </div>
+            <div class="product-card">
+                <div class="placeholder-img"></div>
+                <p class="product-name">Árabe Crema</p>
+                <p class="product-price">$6.0</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

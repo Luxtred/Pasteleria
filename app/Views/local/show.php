@@ -14,8 +14,7 @@
                     <th>Sucursal</th>
                     <th>Direción</th>
                     <th>Horario</th>
-                    <th>Imagen</th>
-
+                    
                 </thead>
                 <tbody>
                     <?php foreach($local as $key) : ?>
@@ -24,16 +23,10 @@
                         <td><?=$key->nombreSucursal ?></td>
                         <td><?=$key->direccion ?></td>
                         <td><?=$key->horaAtencion ?></td>
-                        <td>
-                            <?php if (!empty($key->idImage)) : ?>
-                                <a href="<?= site_url('Imagen/getFile/' . $key->idImage) ?>" target="_blank">
-                                <img src="<?= site_url('Imagen/getFile/' . $key->idImage) ?>" alt="" class="img-fluid">
-                                    </a>
-                                <?php else: ?>
-                                    <p>No image available</p>
-                                <?php endif; ?>
-                            </td>
-                                              
+                        
+                        
+                        
+
                         <td>
                             <a href="<?=base_url('local/delete/'.$key->idLocal);?> " class="btn btn-danger">Borrar</a>
                             <a href="<?=base_url('local/edit/'.$key->idLocal);?> " class="btn btn-warning">Actualizar</a>

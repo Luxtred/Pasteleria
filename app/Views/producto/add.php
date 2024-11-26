@@ -32,34 +32,23 @@
             required
             placeholder="" value="<?= set_value('precio') ?>">
         </div>
-        
-
+        <div class="mb-3">
+            <label for="producto" class="form-label">Imagen</label>
+            <input name="imagen" type="text" class="form-control" id="producto" 
+            required
+            placeholder="" value="<?= set_value('imagen') ?>">
+        </div>
         <div class="mb-3">
             <label for="idDisponible" class="form-label">Disponible</label>        
             <select name="idDisponible" class="form-control" >
                 <?php foreach ($disponibles as $key ) :?>
                    <option value="<?=$key->idDisponible?>"><?=$key->disponible?></option>
                 <?php endforeach ?>
-                </select>
-            </div> 
-            <div class="mb-3">
-            <label for="idCategoria" class="form-label">Categoria</label>
-            <select name="idCategoria" class="form-control" >
-                <?php foreach ($categorias as $key ) :?>
-                   <option value="<?=$key->idCategoria?>"><?=$key->categoria?></option>
-                <?php endforeach ?>
-                </select>
-        </div>  
-        <div class="mb-3">
-            <label for="idImagen" class="form-label">Imagen</label>
-            <input name="idImagen" type="hidden" class="form-control" id="idImagen" 
-            required
-            placeholder="" value="<?= $lastImagen ?>" readonly>
-            <input type="num" class="form-control" value="<?= $lastImagen ?>" disabled>
-        </div>    
+
+            </select>
+            </div>       
         
         <input type="submit" class="btn btn-success" value="Agregar">
-        <a href="<?= base_url('imagen/add'); ?>" class="btn btn-success mt-3">Agregar Imagen</a>
         </form>
         </div>
     </div>
