@@ -29,10 +29,11 @@
            <input type="hidden" name="idProducto" value="<?=$producto[0]->idProducto;?>" >
         </div>
         <div class="mb-3">
-            <label for="producto" class="form-label">Imagen</label>
-            <input name="imagen" type="file" value="<?=$producto[0]->imagen; ?>"
-                 class="form-control" id="idProducto" placeholder="">
-           <input type="hidden" name="idProducto" value="<?=$producto[0]->idProducto;?>" >
+            <label for="idImagen" class="form-label">Imagen</label>
+            <input name="idImagen" type="hidden" class="form-control" id="idImagen" 
+            required
+            placeholder="" value="<?= $lastImagen ?>" readonly>
+            <input type="num" class="form-control" value="<?= $lastImagen ?>" disabled>
         </div>
         <div class="mb-3">
             <label for="idDisponible" class="form-label">Disponible</label>
@@ -42,7 +43,18 @@
                 <?php endforeach ?>
                 </select>
         </div> 
+        <div class="mb-3">
+            <label for="idCategoria" class="form-label">Categoria</label>
+            <select name="idCategoria" class="form-control" >
+                <?php foreach ($categorias as $key ) :?>
+                   <option value="<?=$key->idCategoria?>"><?=$key->categoria?></option>
+                <?php endforeach ?>
+                </select>
+        </div> 
+
         <input type="submit" class="btn btn-outline-primary" name="Guardar" value="Guardar">
+
+        <a href="<?= base_url('imagen/edit_image'); ?>" class="btn btn-success mt-3">Agregar Imagen</a>
         </form>
     
     </div>

@@ -10,13 +10,13 @@ class UsuarioP extends Model
     protected $table            = 'usuario';
     protected $primaryKey       = 'idUsuario';
     protected $useAutoIncrement = true;
-    protected $returnType       = 'objetc';
+    protected $returnType       = 'object';
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
-    protected $allowedFields    = ['idUsuario','usuario','password','tipo','email','apellido','nombre'];
+    protected $allowedFields    = ['idUsuario','password','tipo','email','apellido','nombre','idLocal'];
 
     // Dates
-    protected $useTimestamps = false;
+    protected $useTimestamps = true;
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
@@ -39,14 +39,23 @@ class UsuarioP extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
-    public function valida($usuario, $password){
+    public function valida($email, $password) {
         $db = db_connect();
-        $sql ="select usuario, tipo
-        from usuario 
-        where usuario = '".$usuario."' and password ='". $password."'";
-        //print $sql;
-        $query= $db->query($sql);
-        //print $db->lastQuery;
-        return $query->getResult();
+        
+        // Usar una consulta preparada para evitar inyecciones SQL
+        $sql = "SELECT idUsuario, email, password, tipo FROM usuario WHERE email = ?";
+        $query = $db->query($sql, [$email]);
+        
+        $usuario = $query->getRow(); // Obtener el primer resultado
+    
+        // Verificar si el usuario existe
+        if ($usuario) {
+            // Verificar la contraseña
+            if (password_verify($password, $usuario->password)) {
+                return $usuario; // Retornar el usuario si la contraseña es correcta
+            }
         }
+        
+        return null; // Retornar null si no se encontró el usuario o la contraseña es incorrecta
+    }
 }

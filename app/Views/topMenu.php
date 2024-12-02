@@ -6,18 +6,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="<?=base_url()?>principal.css">
     <link href="<?=base_url('/principal');?> ">
-    <title>Pastelería ZZZ</title>
+    <title>Pastelería Bombón</title>
 
-
-<!-- Barra Más Arriba -->
+    <div class="main-content">
+      
+      
+ <!-- Barra Más Arriba -->
 <div class="BarraMasArriba">
-    <div class="SeleccionaSucursal">Selecciona Sucursal</div>
+    <div class="SeleccionaSucursal" onclick="window.location.href='/local/selecionS';">Selecciona Sucursal</div>
     <div class="Recoger">Recoger</div>
-</div>  
+</div>
+
 <!-- Barra de Navegación -->
 <nav class="BarraDeArriba">
 
-        <a class="PasteleriaZzz" href="/topMenu">Pastelería ZZZ</a>
+        <a class="PasteleriaZzz" href="/topMenu">Pastelería Bombón</a>
     
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,13 +31,13 @@
                     <a class="nav-link Sucursales" href="/local/sucursal">Sucursales</a>
                 </li>
                 <li class="Promociones">
-                    <a class="nav-link Promociones" href="/promociones">Promociones</a>
+                    <a class="nav-link Promociones" href="/cliente/promociones">Promociones</a>
                 </li>
                 <li class="LoNuevo">
-                    <a class="nav-link LoNuevo" href="/lo-nuevo">Lo Nuevo</a>
+                    <a class="nav-link LoNuevo" href="/cliente/nuevo">Lo Nuevo</a>
                 </li>
                 <li class="OrdenaAqui">
-                    <a class="nav-link OrdenaAqui" href="/ordena-aqui">Ordena Aquí</a>
+                    <a class="nav-link OrdenaAqui" href="/producto/showC">Ordena Aquí</a>
                 </li>
             </ul>
      <!-- Iconos -->
@@ -54,21 +57,21 @@
                 <path d="M16 20c-1.33-2-4.67-2-6 0"></path>
             </svg>
             </a>
-
+            
             <!-- Icono de carrito de compras -->
-            <div class="icon cart-icon">
+            <a  href="/verCarrito" class="icon cart-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#A020F0" stroke-width="2">
                     <circle cx="9" cy="20" r="2"></circle>
                     <circle cx="16" cy="20" r="2"></circle>
                     <path d="M5 4h16l-1.34 5.34A3 3 0 0 1 16.79 12H8.21a3 3 0 0 1-2.87-2.66L4 4"></path>
                 </svg>
                 <div class="cart-badge">0</div>
-            </div>
+                </a>
         </div>
     </nav>
 </nav>
 
-
+</div>
 
 
 </body>

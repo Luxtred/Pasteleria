@@ -14,7 +14,7 @@
                     <th>Sucursal</th>
                     <th>Direción</th>
                     <th>Horario</th>
-                    
+
                 </thead>
                 <tbody>
                     <?php foreach($local as $key) : ?>
@@ -24,9 +24,7 @@
                         <td><?=$key->direccion ?></td>
                         <td><?=$key->horaAtencion ?></td>
                         
-                        
-                        
-
+                                              
                         <td>
                             <a href="<?=base_url('local/delete/'.$key->idLocal);?> " class="btn btn-danger">Borrar</a>
                             <a href="<?=base_url('local/edit/'.$key->idLocal);?> " class="btn btn-warning">Actualizar</a>

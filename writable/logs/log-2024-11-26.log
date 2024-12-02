@@ -1,0 +1,681 @@
+CRITICAL - 2024-11-26 00:00:35 --> ErrorException: Undefined variable $data
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Controllers\Producto.php on line 236.
+ 1 APPPATH\Controllers\Producto.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Producto.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 00:00:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "producto/topMenu.php"
+[Method: GET, Route: producto/Carrito]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('producto/topMenu.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/topMenu', [], true)
+ 3 APPPATH\Controllers\Producto.php(236): view('producto/topMenu')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 00:01:17 --> ErrorException: Undefined variable $session
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 72.
+ 1 APPPATH\Views\producto\carrito.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 72)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(237): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 00:01:38 --> ErrorException: Undefined variable $session
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 72.
+ 1 APPPATH\Views\producto\carrito.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 72)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(237): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 00:06:25 --> ParseError: syntax error, unexpected token "else", expecting end of file
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 83.
+ 1 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 3 APPPATH\Controllers\Producto.php(237): view('producto/Carrito')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 00:06:42 --> ErrorException: Undefined variable $session
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 73.
+ 1 APPPATH\Views\producto\carrito.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 73)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(237): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 00:10:02 --> ErrorException: Undefined variable $session
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 72.
+ 1 APPPATH\Views\producto\carrito.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 72)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(237): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 00:10:29 --> ErrorException: Undefined variable $session
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 72.
+ 1 APPPATH\Views\producto\carrito.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 72)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(237): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:12:15 --> ErrorException: Undefined variable $productos
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 30.
+ 1 APPPATH\Views\producto\carrito.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 30)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(237): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:12:52 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 30.
+ 1 APPPATH\Views\producto\carrito.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 30)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(237): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:21:05 --> ErrorException: Undefined variable $productoP
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Controllers\Producto.php on line 236.
+ 1 APPPATH\Controllers\Producto.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productoP', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Producto.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:21:25 --> ErrorException: Undefined variable $idProducto
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Controllers\Producto.php on line 236.
+ 1 APPPATH\Controllers\Producto.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idProducto', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Producto.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:21:52 --> ArgumentCountError: Too few arguments to function App\Controllers\Producto::Carrito(), 0 passed in C:\xampp\htdocs\pastel\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Controllers\Producto.php on line 234.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:22:06 --> ErrorException: Undefined variable $idProducto
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Controllers\Producto.php on line 236.
+ 1 APPPATH\Controllers\Producto.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idProducto', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Producto.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:22:55 --> ErrorException: Undefined variable $nombre
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Controllers\Producto.php on line 236.
+ 1 APPPATH\Controllers\Producto.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Producto.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:23:14 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Controllers\Producto.php on line 236.
+ 1 APPPATH\Controllers\Producto.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Producto.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:25:28 --> ErrorException: Undefined variable $idProducto
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Controllers\Producto.php on line 236.
+ 1 APPPATH\Controllers\Producto.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idProducto', 'C:\\xampp\\htdocs\\pastel\\app\\Controllers\\Producto.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:28:24 --> TypeError: Unsupported operand types: string * string
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 31.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 4 APPPATH\Controllers\Producto.php(238): view('producto/Carrito')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:33:20 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 31.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 4 APPPATH\Controllers\Producto.php(238): view('producto/Carrito')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:50:06 --> ErrorException: Undefined variable $productos
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 30.
+ 1 APPPATH\Views\producto\carrito.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 30)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(238): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:51:29 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 31.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 4 APPPATH\Controllers\Producto.php(238): view('producto/Carrito')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:54:54 --> TypeError: Unsupported operand types: string * string
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 31.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 4 APPPATH\Controllers\Producto.php(238): view('producto/Carrito')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:56:51 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 34.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 4 APPPATH\Controllers\Producto.php(238): view('producto/Carrito')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:57:15 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 37.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 4 APPPATH\Controllers\Producto.php(238): view('producto/Carrito')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:57:38 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 38.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 4 APPPATH\Controllers\Producto.php(238): view('producto/Carrito')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:58:33 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 44.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 4 APPPATH\Controllers\Producto.php(238): view('producto/Carrito')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:59:15 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 45.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 4 APPPATH\Controllers\Producto.php(238): view('producto/Carrito')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 01:59:40 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 51.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 4 APPPATH\Controllers\Producto.php(238): view('producto/Carrito')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:00:06 --> ErrorException: Undefined variable $local
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 68.
+ 1 APPPATH\Views\producto\carrito.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 68)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(238): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:01:24 --> ErrorException: Attempt to read property "nombre" on array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 68.
+ 1 APPPATH\Views\producto\carrito.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 68)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(241): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:01:59 --> ErrorException: Attempt to read property "nombreSucursal" on array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 68.
+ 1 APPPATH\Views\producto\carrito.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombreSucursal" on array', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 68)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(241): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:03:44 --> ErrorException: Undefined array key "nombreSucursal"
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 68.
+ 1 APPPATH\Views\producto\carrito.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombreSucursal"', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 68)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(241): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:04:37 --> ErrorException: Attempt to read property "nombreSucursal" on array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 68.
+ 1 APPPATH\Views\producto\carrito.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombreSucursal" on array', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 68)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(241): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:08:44 --> ErrorException: Attempt to read property "nombreSucursal" on array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 68.
+ 1 APPPATH\Views\producto\carrito.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombreSucursal" on array', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 68)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(241): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:09:19 --> ErrorException: Undefined array key "nombreSucursal"
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 68.
+ 1 APPPATH\Views\producto\carrito.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombreSucursal"', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php', 68)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 5 APPPATH\Controllers\Producto.php(241): view('producto/Carrito')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:12:53 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: producto/Carrito]
+in APPPATH\Views\producto\carrito.php on line 69.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/Carrito', [], true)
+ 4 APPPATH\Controllers\Producto.php(241): view('producto/Carrito')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->Carrito()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-26 02:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 02:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 02:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 02:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 02:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 02:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 02:41:16 --> ErrorException: Undefined variable $local
+[Method: GET, Route: producto/pastelP/24]
+in APPPATH\Views\producto\pastelP.php on line 36.
+ 1 APPPATH\Views\producto\pastelP.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 36)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(187): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->pastelP('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:42:06 --> ErrorException: Attempt to read property "nombreSucursal" on array
+[Method: GET, Route: producto/pastelP/24]
+in APPPATH\Views\producto\pastelP.php on line 36.
+ 1 APPPATH\Views\producto\pastelP.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombreSucursal" on array', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 36)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(189): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->pastelP('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:45:42 --> ErrorException: Attempt to read property "nombreSucursal" on array
+[Method: GET, Route: producto/pastelP/24]
+in APPPATH\Views\producto\pastelP.php on line 36.
+ 1 APPPATH\Views\producto\pastelP.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombreSucursal" on array', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 36)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(189): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->pastelP('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:47:07 --> ErrorException: Undefined array key "nombreSucursal"
+[Method: GET, Route: producto/pastelP/24]
+in APPPATH\Views\producto\pastelP.php on line 36.
+ 1 APPPATH\Views\producto\pastelP.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombreSucursal"', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 36)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(189): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->pastelP('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:48:49 --> ErrorException: Undefined variable $local
+[Method: GET, Route: producto/pastelP/24]
+in APPPATH\Views\producto\pastelP.php on line 36.
+ 1 APPPATH\Views\producto\pastelP.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 36)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(187): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->pastelP('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:50:09 --> ErrorException: Undefined variable $local
+[Method: GET, Route: producto/pastelP/24]
+in APPPATH\Views\producto\pastelP.php on line 36.
+ 1 APPPATH\Views\producto\pastelP.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 36)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(187): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->pastelP('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:50:31 --> ErrorException: Undefined variable $local
+[Method: GET, Route: producto/pastelP/24]
+in APPPATH\Views\producto\pastelP.php on line 36.
+ 1 APPPATH\Views\producto\pastelP.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 36)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(187): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->pastelP('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:50:34 --> ErrorException: Undefined variable $local
+[Method: GET, Route: producto/pastelP/24]
+in APPPATH\Views\producto\pastelP.php on line 36.
+ 1 APPPATH\Views\producto\pastelP.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 36)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(187): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->pastelP('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:52:01 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: producto/pastelP/24]
+in APPPATH\Views\producto\pastelP.php on line 32.
+ 1 SYSTEMPATH\View\View.php(235): include()
+ 2 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 4 APPPATH\Controllers\Producto.php(187): view('producto/pastelP', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->pastelP('24')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:52:25 --> ErrorException: Undefined variable $local
+[Method: GET, Route: producto/pastelP/24]
+in APPPATH\Views\producto\pastelP.php on line 36.
+ 1 APPPATH\Views\producto\pastelP.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 36)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(187): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->pastelP('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+CRITICAL - 2024-11-26 02:53:10 --> ErrorException: Undefined variable $local
+[Method: GET, Route: producto/pastelP/24]
+in APPPATH\Views\producto\pastelP.php on line 36.
+ 1 APPPATH\Views\producto\pastelP.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php', 36)
+ 2 SYSTEMPATH\View\View.php(235): include('C:\\xampp\\htdocs\\pastel\\app\\Views\\producto\\pastelP.php')
+ 3 SYSTEMPATH\View\View.php(238): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/pastelP', [], true)
+ 5 APPPATH\Controllers\Producto.php(187): view('producto/pastelP', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Producto->pastelP('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pastel\\public\\index.php')
+INFO - 2024-11-26 16:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 16:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 16:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 16:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 16:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 17:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

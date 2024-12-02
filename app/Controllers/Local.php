@@ -29,6 +29,7 @@ class Local extends BaseController
 
         $localP = model('LocalP');
 
+
         $data['local'] = $localP->findAll();
         return 
             view('head').
@@ -38,10 +39,13 @@ class Local extends BaseController
     }
 
     public function add(){
+    
+        $localP = model('LocalP');
+        $data['local'] = $localP->findAll();
         return 
             view('head').
             view('menu').
-            view('local/add').
+            view('local/add', $data).
             view('footer');
     }
 
@@ -59,12 +63,16 @@ class Local extends BaseController
     public function update(){
         $localP = model('LocalP');
         $idLocal = $_POST['idLocal'];
+
+
+
         $data = [
             'nombreSucursal' => $_POST['nombreSucursal'],
             'direccion' => $_POST['direccion'],
             'horaAtencion' => $_POST['horaAtencion'],
             'nombreGerente' => $_POST['nombreGerente'],
-            'telefono' => $_POST['telefono']
+            'telefono' => $_POST['telefono'],
+            'idImage' => $_POST['idImage']
         ];
         $localP->set($data)->where('idLocal',$idLocal)->update();
         return redirect()->to(base_url('/local'));    
@@ -79,7 +87,8 @@ class Local extends BaseController
                 'direccion' => 'required',
                 'horaAtencion' => 'required',
                 'nombreGerente' => 'required',
-                'telefono' => 'required',
+                'telefono' => 'required'
+              
             ];
         $local = [
             'nombreSucursal' => $_POST['nombreSucursal'],
@@ -87,6 +96,7 @@ class Local extends BaseController
             'horaAtencion' => $_POST['horaAtencion'],
             'nombreGerente' => $_POST['nombreGerente'],
             'telefono' => $_POST['telefono']
+           
         ];
         if (! $this->validate($rules)) {
             return     
@@ -124,5 +134,19 @@ class Local extends BaseController
             view('footer');   
     }
 
+    
+    public function mostrarSucursales()
+    {
+        $localP = model('LocalP');
+        
+        // Obtener todas las sucursales
+        $data['local'] = $localP->findAll();
+
+        // Cargar la vista seleccionS con los datos de las sucursales
+        return view('head') .
+            view('topMenu') .
+            view('local/selecionS', $data) .
+            view('footer');
+    }
     
 }

@@ -37,8 +37,10 @@
             required
             placeholder="" value="<?= set_value('telefono') ?>">
         </div>
-        
+      
+
         <input type="submit" class="btn btn-success" value="Agregar">
+        
         </form>
     
     </div>

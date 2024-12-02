@@ -13,67 +13,75 @@
     
  <!-- Contenedor principal del menú -->
  <div class="menu">
-        
-        <!-- Sección de Panes de Alta Calidad -->
-        <div class="menu-item">
-            <h2>PANES DE ALTA CALIDAD</h2>
-            <p>Conoce nuestros deliciosos panes</p>
-            <a  class=button1 href="<?=base_url('/producto/showC');?>">Ver más</a>
-        </div>
-        
-        <!-- Sección de Especialidad del Mes -->
-        <div class="menu-item">
-            <h2>ESPECIALIDAD DEL MES</h2>
-            <div class="products">
-                <div class="product">
-                    <img src="imagen1.jpg" alt="Producto 1">
-                    <p>Pan de Muerto relleno de Membrillo Familiar</p>
-                    <p>$100</p>
-                    <button >Agregar</button>
-                </div>
-                <div class="product">
-                    <img src="imagen2.jpg" alt="Producto 2">
-                    <p>Pastel de Queso con Zarzamora Mediano</p>
-                    <p>$100</p>
-                    <button>Agregar</button>
-                </div>
-                <div class="product">
-                    <img src="imagen3.jpg" alt="Producto 3">
-                    <p>Concha de Vainilla Familiar</p>
-                    <p>$100</p>
-                    <button>Agregar</button>
-                </div>
-            </div>
+    <!-- Banner decorativo -->
+    <div class="banner-menu">
+        <div class="banner-content">
+            <h1>Bienvenidos a Nuestra Pastelería</h1>
+            <p>Explora nuestra selección de panes y postres únicos</p>
+            <p></p>
+            <a class="button1" href="<?=base_url('/producto/showC');?>">Ver más</a>
         </div>
     </div>
-
-    <div class="container">
-        <div class="text-section">
-            <h2>LOS MÁS BUSCADOS</h2>
-            <p>Eleva tu día con el pan y pasteles favoritos de nuestros invitados.</p>
-            <button>VISITAR TIENDA</button>
-        </div>
-        <div class="product-grid">
-            <?php
-            // Llamada al modelo para obtener los productos más vistos
-            $productoP = model('productoP');
-            $productosMasVistos = $productoP->getProductosMasVistos();
-
-            // Iteración a través de cada producto
-            foreach ($productosMasVistos as $producto): ?>
-                <div class="product">
-                    <?php if (!empty($producto->imagen)): ?>
-                        <img src="<?= $producto->imagen ?>" alt="<?= $producto->nombre ?>">
-                    <?php else: ?>
-                        <div class="placeholder-image">Imagen no disponible</div>
-                    <?php endif; ?>
-                    <h3><?= $producto->nombre ?></h3>
-                    <p>Vistas: <?= $producto->vistas ?></p>
-                    <p> <?=$producto->precio; ?> </p>
-                    <button class="available">Disponible</button>
-                </div>
-            <?php endforeach; ?>
-        </div>
+    
+ <div class="menu">
+ 
+<!-- Sección Especialidades -->
+<div class="container">
+    <div class="text-section">
+        <h2>Especialidades del Mes</h2>
+        <p>Disfruta de nuestras especialidades destacadas este mes.</p>
     </div>
+    <div class="especialidades-grid"> <!-- Cambié a clase especialidades-grid -->
+        <?php
+        $productoP = model('productoP');
+        $especialidadDelMes = $productoP->where('idCategoria', 2)->findAll();
+
+        foreach ($especialidadDelMes as $producto):
+        ?>
+        <div class="especialidad-product"> <!-- Cambié a clase especialidad-product -->
+            <?php if (!empty($producto->idImagen)) : ?>
+                <a href="<?= site_url('Imagen/getFile/' . $producto->idImagen) ?>" target="_blank">
+                    <img src="<?= site_url('Imagen/getFile/' . $producto->idImagen) ?>" alt="" class="img-fluid">
+                </a>
+            <?php else: ?>
+                <p>No image available</p>
+            <?php endif; ?>
+            <h3><?= $producto->nombre ?></h3>
+            <p>$<?= $producto->precio ?></p>
+            <button>Agregar</button>
+        </div>
+        <?php endforeach; ?>
+    </div>
+</div>
+
+<!-- Sección Productos Más Vistos -->
+<div class="container">
+    <div class="text-section">
+        <h2>LOS MÁS BUSCADOS</h2>
+        <p>Eleva tu día con el pan y pasteles favoritos de nuestros invitados.</p>
+        <button href="<?=base_url('/producto/showC');?>">VISITAR TIENDA</button>
+    </div>
+    <div class="productos-grid"> <!-- Cambié a clase productos-grid -->
+        <?php
+        $productoP = model('productoP');
+        $productosMasVistos = $productoP->getProductosMasVistos();
+
+        foreach ($productosMasVistos as $producto):
+        ?>
+        <div class="producto-item"> <!-- Cambié a clase producto-item -->
+            <?php if (!empty($producto->idImagen)) : ?>
+                <a href="<?= site_url('Imagen/getFile/' . $producto->idImagen) ?>" target="_blank">
+                    <img src="<?= site_url('Imagen/getFile/' . $producto->idImagen) ?>" alt="" class="img-fluid">
+                </a>
+            <?php else: ?>
+                <p>No image available</p>
+            <?php endif; ?>
+            <h3><?= $producto->nombre ?></h3>
+            <p>$<?= $producto->precio ?></p>
+        </div>
+        <?php endforeach; ?>
+    </div>
+</div>
+
     </body>
 </html>

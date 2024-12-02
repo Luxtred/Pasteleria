@@ -13,7 +13,7 @@ class ProductoP extends Model
     protected $returnType       = 'object';
     protected $useSoftDeletes   = false;
     protected $protectFields    = false;
-    protected $allowedFields    = ['idProducto','nombre','peso','descripción','precio','imagen','idDisponible','cantidad','idLocal','temporada','idCategoria','vista'];
+    protected $allowedFields    = ['idProducto','nombre','peso','descripción','precio','idDisponible','cantidad','idLocal','temporada','idCategoria','vista','idImagen'];
 
     // Dates
     protected $useTimestamps = false;
@@ -42,10 +42,10 @@ class ProductoP extends Model
     public function getProducto(){
         $db = db_connect();
 
-        $sql= "select producto.*, Disponibilidad.disponible
-                from producto,Disponibilidad 
-                where producto.idDisponible = disponibilidad.idDisponible 
-        ";
+        $sql = "SELECT producto.*, Disponibilidad .disponible, Categoria .categoria 
+        FROM producto JOIN Disponibilidad ON producto .idDisponible = Disponibilidad .idDisponible 
+        JOIN Categoria ON producto .idCategoria = Categoria .idCategoria";
+       
         $query= $db->query($sql);
 
        
@@ -61,9 +61,72 @@ class ProductoP extends Model
 
     public function getProductosMasVistos() {
         $db = db_connect();
-        $sql = "SELECT * FROM producto ORDER BY vistas DESC LIMIT 10";
+        $sql = "SELECT * FROM producto ORDER BY vistas DESC LIMIT 6";
         $query = $db->query($sql);
         return $query->getResult();
     }
     
+    public function getImagenProducto(){
+        $db = db_connect();
+
+        $sql= "select producto.*, imagen.*
+                from producto, imagen 
+                where producto.idImagen = imagen.idImagen 
+        ";
+
+        $query= $db->query($sql);      
+        return $query->getResult();
+
+    }
+
+    public function getImagenProducto1($idProducto)
+    {
+    return $this->select('producto.*, imagen.nombreArchivo, imagen.idImagen')
+                ->join('imagen', 'imagen.idImagen = producto.idImagen', 'left')
+                ->where('producto.idProducto', $idProducto)
+                ->first();
+    }
+    
+    public function getPompom()
+    {
+          // Asegúrate de tener una consulta que obtenga los productos correctamente
+         return $this->builder('producto')
+        ->select('producto.idProducto, producto.nombre, producto.precio, imagen.idImagen, imagen.nombreArchivo')
+        ->join('imagen', 'producto.idImagen = imagen.idImagen', 'left')
+        ->get()
+        ->getResult();
+    }
+
+    public function getYerimua() {
+        $result = $this->builder('producto')
+            ->select('producto.idProducto, producto.nombre, producto.descripción, producto.precio, imagen.idImagen, imagen.nombreArchivo')
+            ->join('imagen', 'producto.idImagen = imagen.idImagen', 'left')
+            ->get()
+            ->getResult();
+        
+        var_dump($result); // Esto te ayudará a verificar la estructura de los datos
+        return $result;
+    }
+    
+    
+
+    public function getProductosPorCategoria($idCategoria = null) {
+        $db = db_connect();
+    
+        $sql = "SELECT producto.*, Categoria .categoria 
+                FROM producto 
+                JOIN Categoria ON producto .idCategoria = Categoria .idCategoria";
+        
+        if ($idCategoria !== null) {
+            $sql .= " WHERE producto.idCategoria = ?";
+            $query = $db->query($sql, [$idCategoria]);
+        } else {
+            $query = $db->query($sql);
+        }
+    
+        return $query->getResult();
+    }
+    
+    
 }
+

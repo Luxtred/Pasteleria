@@ -7,8 +7,8 @@ use CodeIgniter\Model;
 class ClienteP extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'cliente_ps';
-    protected $primaryKey       = 'id';
+    protected $table            = 'cliente';
+    protected $primaryKey       = 'idCliente';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
